@@ -1,0 +1,273 @@
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('../assets/fonts/Noto_Sans_JP/static/NotoSansJP-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "CustomFont", "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url('./assets/images/library.jpeg') no-repeat center center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  font-family: 'NotoSansJP', sans-serif;
+}
+
+.jp {
+  font-family: 'NotoSansJP', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffcb05;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.container {
+  text-align: center;
+  z-index: 1;
+  padding: 50px;
+  border-radius: 20px;
+  animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  animation: slideDown 1.2s ease;
+}
+
+h1 span {
+  color: #ffcb05;
+}
+
+.intro {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: #f1f1f1;
+  animation: fadeIn 1.5s ease;
+}
+
+/* ✨ Sparkle Pushable Button */
+.pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  width: 220px;
+  height: 60px;
+  z-index: 5;
+}
+
+.shadow {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.25);
+  transform: translateY(3px);
+  transition:
+    transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1),
+    opacity 300ms ease-in-out;
+}
+
+.edge {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(50deg 100% 20%) 0%,
+    hsl(50deg 100% 35%) 8%,
+    hsl(50deg 100% 35%) 92%,
+    hsl(50deg 100% 20%) 100%
+  );
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+/* Hover: make shadow deeper & edge slightly adjust */
+.pushable:hover .shadow {
+  transform: translateY(4px) scale(1.10);
+  opacity: 0.9;
+}
+
+.pushable:hover .edge {
+  transform: scale(1.10);
+}
+
+/* Click: flatten effect */
+.pushable:active .shadow {
+  transform: translateY(1px) scale(0.98);
+  opacity: 0.6;
+}
+
+.pushable:active .edge {
+  transform: scale(0.98);
+}
+
+
+/* 🟡 Front face of the button */
+.front {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  background: hsl(50deg 100% 50%);
+  transform: translateY(-4px);
+  transition:
+    transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1),
+    font-size 250ms ease-in-out,
+    box-shadow 300ms ease-in-out;
+  z-index: 2;
+  animation: softPulse 2.5s infinite ease-in-out; /* always glowing softly */
+}
+
+/* When hover → stronger glow + bigger text */
+.pushable:hover .front {
+  transform: translateY(-6px) scale(1.1);
+  font-size: 1.35rem;
+  animation: strongPulse 1.5s infinite alternate ease-in-out;
+  box-shadow:
+    0 0 30px 10px rgba(255, 230, 100, 0.8),
+    0 0 60px 20px rgba(255, 230, 100, 0.5);
+}
+
+/* When pressed → shrink + dim */
+.pushable:active .front {
+  transform: translateY(-2px) scale(0.98);
+  font-size: 1.15rem;
+  animation: none;
+  box-shadow: 0 0 8px 3px rgba(255, 203, 5, 0.4);
+}
+
+/* Glow + lift hover */
+.pushable:hover {
+  filter: brightness(115%);
+}
+
+/* ✨ Sparkle particles */
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(0.1);
+  animation: sparkleBurst 1200ms ease-out forwards;
+  z-index: 10;
+}
+
+/* 💥 Sparkle burst effect */
+@keyframes sparkleBurst {
+  0% {
+    opacity: 1;
+    transform: scale(0.1);
+    filter: blur(2px);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.2);
+    filter: blur(3px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(3);
+    filter: blur(6px);
+  }
+}
+
+/* 🌟 Soft idle pulse */
+@keyframes softPulse {
+  0% {
+    box-shadow:
+      0 0 10px 3px rgba(255, 230, 100, 0.3),
+      0 0 20px 8px rgba(255, 230, 100, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 25px 10px rgba(255, 230, 100, 0.6),
+      0 0 50px 18px rgba(255, 230, 100, 0.4);
+  }
+  100% {
+    box-shadow:
+      0 0 10px 3px rgba(255, 230, 100, 0.3),
+      0 0 20px 8px rgba(255, 230, 100, 0.2);
+  }
+}
+
+/* ⚡ Strong pulse on hover */
+@keyframes strongPulse {
+  0% {
+    box-shadow:
+      0 0 20px 6px rgba(255, 230, 100, 0.6),
+      0 0 40px 12px rgba(255, 230, 100, 0.4);
+  }
+  50% {
+    box-shadow:
+      0 0 45px 15px rgba(255, 230, 100, 0.9),
+      0 0 90px 30px rgba(255, 230, 100, 0.6);
+  }
+  100% {
+    box-shadow:
+      0 0 20px 6px rgba(255, 230, 100, 0.6),
+      0 0 40px 12px rgba(255, 230, 100, 0.4);
+  }
+}
+
+.watermark {
+  position: absolute;
+  font-size: 11rem;
+  color: rgba(255, 255, 255, 0.05);
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  user-select: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  z-index: 2;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
