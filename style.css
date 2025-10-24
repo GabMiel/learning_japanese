@@ -57,6 +57,10 @@ h1 span {
   color: #ffcb05;
 }
 
+button.pushable {
+  margin-top: 3rem;
+}
+
 .intro {
   font-size: 1.7rem;
   line-height: 1.6;
