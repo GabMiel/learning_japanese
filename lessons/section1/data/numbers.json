@@ -1,0 +1,14 @@
+{
+  "numbers": [
+    { "en": "One", "jp": "一", "romaji": "Ichi" },
+    { "en": "Two", "jp": "二", "romaji": "Ni" },
+    { "en": "Three", "jp": "三", "romaji": "San" },
+    { "en": "Four", "jp": "四", "romaji": "Shi" },
+    { "en": "Five", "jp": "五", "romaji": "Go" },
+    { "en": "Six", "jp": "六", "romaji": "Roku" },
+    { "en": "Seven", "jp": "七", "romaji": "Shichi" },
+    { "en": "Eight", "jp": "八", "romaji": "Hachi" },
+    { "en": "Nine", "jp": "九", "romaji": "Kyū" },
+    { "en": "Ten", "jp": "十", "romaji": "Jū" }
+  ]
+}
