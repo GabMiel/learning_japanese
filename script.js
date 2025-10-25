@@ -27,6 +27,6 @@ button.addEventListener('click', () => {
 
   // Go to Lesson 1 after sparkles
   setTimeout(() => {
-    window.location.href = "lessons/section1/section1.html";
+    window.location.href = "/learning_japanese/lessons/section1/section1.html";
   }, 1000);
 });
