@@ -9,15 +9,78 @@
 <header id="header">
     <button id="menuBtn">☰</button>
     <h1>Section 1</h1>
+    <button id="settingsBtn" title="Settings">⚙️</button>
 </header>
 
 <nav id="sideNav"></nav>
+
+<!-- 🔹 Right Settings Panel -->
+<aside id="settingsPanel" class="settings-panel">
+    <h2>Settings</h2>
+
+    <!-- Columns Section -->
+    <div class="setting-group">
+        <h3>Change Columns</h3>
+        <div class="column-options">
+            <img src="../assets/images/col2.jpeg" alt="2 Columns" data-cols="2">
+            <img src="../assets/images/col3.jpeg" alt="3 Columns" data-cols="3">
+            <img src="../assets/images/col4.jpg" alt="4 Columns" data-cols="4">
+            <img src="../assets/images/col5.jpeg" alt="5 Columns" data-cols="5">
+        </div>
+    </div>
+
+    <!-- Credits Button -->
+    <div class="setting-group">
+        <button id="creditsBtn" class="credits-btn">Credits</button>
+    </div>
+</aside>
+
+<!-- 🔹 Credits Modal -->
+<div id="creditsModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Credits</h2>
+
+        <div class="credits-list">
+            <div class="credit-row">
+                <span class="label">Creator & Designer:</span>
+                <span class="value gold">Gabriel Miel</span>
+            </div>
+
+            <div class="credit-row">
+                <span class="label">Voice Tool:</span>
+                <span class="value gold"> TTSMP3.com<br>
+                    <small class="subtext">(Text-to-Speech Audio)</small>
+                </span>
+            </div>
+
+
+            <div class="credit-row">
+                <span class="label">UI Concept:</span>
+                <span class="value lime">Dark Neon Glow Interface</span>
+            </div>
+        </div>
+
+        <hr class="credits-line">
+
+        <p class="thanks-message"><span>Special thanks to my classmate
+            <strong class="highlight-name">Miko Santos</strong>
+            for letting me borrow his book</span><br>
+            <strong><em>“Japanese in 3 Weeks.”</em></strong><br>
+            <span>It encourages me to do this website,<br>
+                so thank you even though the time was limited.</span>
+        </p>
+
+    </div>
+</div>
 
 <main class="container">
     <div id="cardContainer" class="card-container"></div>
 </main>
 
+<!-- Scripts -->
 <script src="../assets/js/sidebar.js"></script>
 <script src="../assets/js/lessonLoader.js"></script>
+<script src="../assets/js/settings.js"></script>
 </body>
 </html>

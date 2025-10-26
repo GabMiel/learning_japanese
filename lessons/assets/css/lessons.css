@@ -21,7 +21,7 @@ header {
   color: #ffd700;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
   padding: 0 1rem;
   z-index: 1100;
   box-shadow: 0 2px 10px rgba(255, 215, 0, 0.15);
@@ -35,23 +35,25 @@ header h1 {
   letter-spacing: 0.5px;
 }
 
-#menuBtn {
+/* Buttons inside header */
+#menuBtn,
+#settingsBtn {
   font-size: 1.4rem;
   background: none;
   color: #ffd700;
   border: none;
-  margin-right: 4px;
   cursor: pointer;
   transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
 }
 
-#menuBtn:hover {
-  transform: scale(1.15);
+#menuBtn:hover,
+#settingsBtn:hover {
+  transform: scale(1.15) rotate(10deg);
   color: #fff;
   text-shadow: 0 0 10px #ffd700, 0 0 20px #fff;
 }
 
-/* ===== Floating Sidebar (Overlay Style) ===== */
+/* ===== Floating Sidebar ===== */
 #sideNav {
   position: fixed;
   top: 70px;
@@ -190,7 +192,7 @@ header h1 {
   box-shadow: inset 0 0 8px rgba(255, 215, 0, 0.25);
 }
 
-/* ===== Container (Centered) ===== */
+/* ===== Container ===== */
 .container {
   width: 90%;
   max-width: 900px;
@@ -201,7 +203,7 @@ header h1 {
   z-index: 1;
 }
 
-/* ===== Card Grid (2 Columns, Centered) ===== */
+/* ===== Card Grid ===== */
 #cardContainer {
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 1fr));
@@ -245,6 +247,145 @@ header h1 {
   font-size: 1rem;
 }
 
+/* ===== Lesson Title Glow ===== */
+.lesson-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.lesson-title {
+  color: #FFD700;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  animation: limePulse 2.5s infinite ease-in-out;
+}
+
+@keyframes limePulse {
+  0% {
+    text-shadow: 0 0 6px rgba(180, 255, 0, 0.6),
+                 0 0 16px rgba(180, 255, 0, 0.4);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(200, 255, 0, 1),
+                 0 0 40px rgba(220, 255, 100, 0.9);
+  }
+  100% {
+    text-shadow: 0 0 6px rgba(180, 255, 0, 0.6),
+                 0 0 16px rgba(180, 255, 0, 0.4);
+  }
+}
+
+/* ===== Settings Panel ===== */
+#settingsPanel {
+  position: fixed;
+  top: 60px; /* below header */
+  right: -300px;
+  width: 260px;
+  height: calc(100% - 60px);
+  background: #0d1117;
+  color: #fff;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.5);
+  padding: 1rem;
+  transition: right 0.3s ease;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+#settingsPanel.open {
+  right: 0;
+}
+
+#settingsPanel h2 {
+  text-align: center;
+  border-bottom: 1px solid #ff4c29;
+  padding-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.setting-group {
+  margin-top: 1rem;
+}
+
+.column-options {
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.column-options img {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.2s ease, transform 0.2s ease;
+}
+
+.column-options img:hover {
+  border-color: #ff4c29;
+  transform: scale(1.1);
+}
+
+.credits-btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ff4c29;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.credits-btn:hover {
+  background: #ff673d;
+}
+
+/* ===== Credits Modal ===== */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #161b22;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(255, 76, 41, 0.5);
+  position: relative;
+  text-align: center;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #ff4c29;
+  transition: color 0.2s;
+}
+
+.modal-content .close:hover {
+  color: #ff785d;
+}
+
 /* ===== Small Screens ===== */
 @media (max-width: 800px) {
   #cardContainer {
@@ -262,40 +403,93 @@ header h1 {
   }
 }
 
-.lesson-header {
-  text-align: center;
-  margin-bottom: 30px;
+/* ===== Clean & Optimized Credits Layout ===== */
+.credits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  max-width: 380px;
+  margin: 0 auto;
 }
 
-.lesson-title {
-  color: #FFD700;
+.credit-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.credit-row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  color: #ffae42;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(255, 180, 100, 0.4);
+}
+
+.value {
+  text-align: right;
+  font-weight: 600;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+/* ===== Color Variants ===== */
+.value.gold {
+  color: #ffd700;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+}
+
+.value.cyan {
+  color: #4ecdc4;
+  text-shadow: 0 0 8px rgba(80, 255, 230, 0.5);
+}
+
+.value.lime {
+  color: #b4ff4f;
+  text-shadow: 0 0 8px rgba(180, 255, 100, 0.6);
+}
+
+/* ===== Decorative Line ===== */
+.credits-line {
+  height: 1px;
+  width: 80%;
+  background: linear-gradient(90deg, transparent, #ff4c29, transparent);
+  margin: 1rem auto;
+  border: none;
+}
+
+/* ===== Thank You Message ===== */
+.thanks-message {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 0.95rem;
+  color: #ffb380;
+  line-height: 1.5;
+  text-shadow: 0 0 8px rgba(255, 179, 100, 0.4);
+}
+
+.thanks-message em {
+  color: #ffd700;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+
+.subtext {
+  display: block;
+  font-size: 0.8rem;
+  color: #ffd700;
+  opacity: 0.8;
+  margin-top: 2px;
+}
+
+.highlight-name {
+  color: #ff4c4c; /* neon red */
+  text-shadow:
+    0 0 6px rgba(255, 60, 60, 0.8),
+    0 0 12px rgba(255, 60, 60, 0.6),
+    0 0 24px rgba(255, 60, 60, 0.4);
   font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  text-shadow: 0 0 8px rgba(255, 215, 0, 0.6); /* soft glowing effect */
-  letter-spacing: 1px;
-  font-family: 'Poppins', sans-serif; /* optional modern font */
-  animation: limePulse 2.5s infinite ease-in-out;
-}
-
-@keyframes limePulse {
-  0% {
-    text-shadow:
-      0 0 6px rgba(180, 255, 0, 0.6),
-      0 0 16px rgba(180, 255, 0, 0.4);
-  }
-  50% {
-    text-shadow:
-      0 0 15px rgba(200, 255, 0, 1),
-      0 0 40px rgba(220, 255, 100, 0.9);
-  }
-  100% {
-    text-shadow:
-      0 0 6px rgba(180, 255, 0, 0.6),
-      0 0 16px rgba(180, 255, 0, 0.4);
-  }
-}
-
 }

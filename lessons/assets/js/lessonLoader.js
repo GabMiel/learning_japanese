@@ -1,4 +1,4 @@
-// lessonLoader.js — fixed version (2-column layout preserved + sound path fixed)
+// lessonLoader.js — refined version (sound path fixed + clean structure + ready for settings panel)
 
 document.addEventListener("DOMContentLoaded", () => {
   const cardContainer = document.getElementById("cardContainer");
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!cardContainer || !sideNav) return;
 
-  // 🔹 Create a separate container for the lesson title
+  // 🔹 Create lesson header (title above cards)
   let lessonHeader = document.querySelector(".lesson-header");
   if (!lessonHeader) {
     lessonHeader = document.createElement("div");
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cardContainer.parentElement.insertBefore(lessonHeader, cardContainer);
   }
 
-  // 🔹 Hide header on scroll
+  // 🔹 Hide header when scrolling down
   if (header) {
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // 🔹 Prevent XSS / sanitize content
   function escapeHtml(str) {
     return String(str)
       .replace(/&/g, "&amp;")
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/>/g, "&gt;");
   }
 
+  // 🔹 Load lesson data from JSON
   async function loadLesson(section, topic) {
     const jsonPath = `../${section}/data/${topic}.json`;
     console.log("Loading JSON:", jsonPath);
@@ -48,23 +50,22 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
 
-      const items = Array.isArray(data)
-        ? data
-        : Array.isArray(data.items)
-        ? data.items
-        : Array.isArray(data.numbers)
-        ? data.numbers
-        : [];
+      const items =
+        Array.isArray(data) ? data :
+        Array.isArray(data.items) ? data.items :
+        Array.isArray(data.numbers) ? data.numbers :
+        [];
 
       if (items.length === 0) {
         cardContainer.innerHTML = "<p>No data found.</p>";
         return;
       }
 
+      // 🔹 Lesson Title
       const lessonTitle = escapeHtml(data.title || `Lesson: ${topic}`);
       lessonHeader.innerHTML = `<h1 class="lesson-title">${lessonTitle}</h1>`;
 
-      // 🔹 Render cards
+      // 🔹 Render Lesson Cards
       cardContainer.innerHTML = items
         .map(
           (item) => `
@@ -81,20 +82,22 @@ document.addEventListener("DOMContentLoaded", () => {
         )
         .join("");
 
-      // 🔹 Add sound playback
+      // 🔹 Add Sound Click Event
       cardContainer.querySelectorAll(".card").forEach((card) => {
         card.addEventListener("click", () => {
           const soundFile = card.dataset.sound;
           if (soundFile) {
-            const audioPath = `../section1/sounds/${soundFile}`;
+            const audioPath = `../${section}/sounds/${soundFile}`;
             console.log("🔊 Playing sound:", audioPath);
             const audio = new Audio(audioPath);
-            audio.play().catch((err) => console.warn("Sound play error:", err));
+            audio.play().catch((err) =>
+              console.warn("Sound play error:", err)
+            );
           } else {
             console.warn("⚠️ No sound file found for this card.");
           }
 
-          // Card animation
+          // Small click animation
           card.classList.add("clicked");
           setTimeout(() => card.classList.remove("clicked"), 200);
         });
@@ -112,17 +115,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     e.preventDefault();
 
-    const sectionBtn = link.closest(".section-item")?.querySelector(".section-btn");
+    const sectionBtn =
+      link.closest(".section-item")?.querySelector(".section-btn");
     if (sectionBtn && headerTitle) {
       headerTitle.textContent = sectionBtn.textContent;
     }
 
-    document.querySelectorAll("#sideNav a.active").forEach((a) => a.classList.remove("active"));
+    // Highlight active link
+    document
+      .querySelectorAll("#sideNav a.active")
+      .forEach((a) => a.classList.remove("active"));
     link.classList.add("active");
 
+    // Save active lesson
     localStorage.setItem(
       "sidenav:active",
-      JSON.stringify({ section: link.dataset.section, topic: link.dataset.topic })
+      JSON.stringify({
+        section: link.dataset.section,
+        topic: link.dataset.topic,
+      })
     );
 
     loadLesson(link.dataset.section, link.dataset.topic);
@@ -133,9 +144,12 @@ document.addEventListener("DOMContentLoaded", () => {
   try {
     const saved = JSON.parse(localStorage.getItem("sidenav:active") || "null");
     if (saved) {
-      const sectionLink = sideNav.querySelector(`a[data-topic="${saved.topic}"]`);
+      const sectionLink = sideNav.querySelector(
+        `a[data-topic="${saved.topic}"]`
+      );
       if (sectionLink) {
-        const sectionBtn = sectionLink.closest(".section-item")?.querySelector(".section-btn");
+        const sectionBtn =
+          sectionLink.closest(".section-item")?.querySelector(".section-btn");
         if (sectionBtn && headerTitle) {
           headerTitle.textContent = sectionBtn.textContent;
         }
