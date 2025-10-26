@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 🔹 Load lesson data
   async function loadLesson(section, topic) {
-    const jsonPath = `${section}/data/${topic}.json`;
+    const jsonPath = `data/${topic}.json`;
     console.log("Loading JSON:", jsonPath);
 
     // Show loading animation
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.addEventListener("click", () => {
           const soundFile = card.dataset.sound;
           if (soundFile) {
-            const audioPath = `../${section}/sounds/${soundFile}`;
+            const audioPath = `sounds/${soundFile}`;
             console.log("🔊 Playing sound:", audioPath);
             const audio = new Audio(audioPath);
             audio.play().catch(err => console.warn("Sound play error:", err));
