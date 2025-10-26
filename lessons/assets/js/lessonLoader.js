@@ -1,4 +1,4 @@
-// lessonLoader.js — GitHub Pages absolute path fix
+// lessonLoader.js — dynamic base path for GitHub Pages
 document.addEventListener("DOMContentLoaded", () => {
   const cardContainer = document.getElementById("cardContainer");
   const sideNav = document.getElementById("sideNav");
@@ -33,9 +33,11 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/>/g, "&gt;");
   }
 
+  // Detect base path dynamically
+  const basePath = `${window.location.origin}/learning_japanese/lessons`;
+
   // Load lesson data
   async function loadLesson(section, topic) {
-    const basePath = "/learning_japanese/lessons"; // ✅ GitHub Pages root
     const jsonPath = `${basePath}/${section}/data/${topic}.json`;
     console.log("Loading JSON:", jsonPath);
 
