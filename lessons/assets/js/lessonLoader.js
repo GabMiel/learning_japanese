@@ -1,4 +1,4 @@
-// lessonLoader.js — optimized for dynamic lessons + settings integration
+// lessonLoader.js — optimized for dynamic lessons + GitHub Pages path fix
 document.addEventListener("DOMContentLoaded", () => {
   const cardContainer = document.getElementById("cardContainer");
   const sideNav = document.getElementById("sideNav");
@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 🔹 Load lesson data
   async function loadLesson(section, topic) {
-    const jsonPath = `data/${topic}.json`;
+    // ✅ Correct path for GitHub Pages and local
+    const jsonPath = `${section}/data/${topic}.json`;
     console.log("Loading JSON:", jsonPath);
 
     // Show loading animation
@@ -60,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const lessonTitle = escapeHtml(data.title || `Lesson: ${topic}`);
       lessonHeader.innerHTML = `<h1 class="lesson-title">${lessonTitle}</h1>`;
 
-      // 🔹 Render Cards (clean layout)
+      // 🔹 Render Cards
       cardContainer.innerHTML = items.map(item => `
         <div class="card" data-sound="${item.sound || ""}">
           <h2>${escapeHtml(item.en || "")}</h2>
@@ -74,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.addEventListener("click", () => {
           const soundFile = card.dataset.sound;
           if (soundFile) {
-            const audioPath = `sounds/${soundFile}`;
+            const audioPath = `${section}/sounds/${soundFile}`;
             console.log("🔊 Playing sound:", audioPath);
             const audio = new Audio(audioPath);
             audio.play().catch(err => console.warn("Sound play error:", err));
