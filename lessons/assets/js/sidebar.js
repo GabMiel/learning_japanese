@@ -69,8 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---- Persistence keys ---------------------------------------------------
   const KEYS = {
     NAV_OPEN: "sidenav:open",
-    EXPANDED: "sidenav:expanded", // JSON array of section indexes
-    ACTIVE: "sidenav:active"      // { section: "section1", topic: "numbers" }
+    EXPANDED: "sidenav:expanded",
+    ACTIVE: "sidenav:active"
   };
 
   const isDesktop = () => window.matchMedia("(min-width: 801px)").matches;
@@ -89,7 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---- Initial open state -------------------------------------------------
   const persistedOpen = localStorage.getItem(KEYS.NAV_OPEN);
   if (persistedOpen === null) {
-    // First run: open on desktop, closed on mobile
     setNavOpen(isDesktop(), true);
   } else {
     setNavOpen(persistedOpen === "true", false);
@@ -108,6 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const sectionBtn = document.createElement("button");
     sectionBtn.textContent = sectionName;
     sectionBtn.className = "section-btn";
+    sectionBtn.setAttribute("aria-expanded", expandedSet.has(index));
     sectionItem.appendChild(sectionBtn);
 
     const lessonList = document.createElement("ul");
@@ -124,7 +124,6 @@ document.addEventListener("DOMContentLoaded", () => {
       lessonList.appendChild(li);
     });
 
-    // Restore expanded/collapsed state
     if (expandedSet.has(index)) {
       lessonList.classList.remove("hidden");
     }
@@ -132,10 +131,11 @@ document.addEventListener("DOMContentLoaded", () => {
     sectionItem.appendChild(lessonList);
     navList.appendChild(sectionItem);
 
-    // Toggle expand/collapse and persist
+    // Toggle expand/collapse
     sectionBtn.addEventListener("click", (e) => {
       e.preventDefault();
       const isHidden = lessonList.classList.toggle("hidden");
+      sectionBtn.setAttribute("aria-expanded", !isHidden);
       if (isHidden) {
         expandedSet.delete(index);
       } else {
@@ -145,49 +145,40 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ---- Menu button toggles & persists ------------------------------------
+  // ---- Menu button toggles -----------------------------------------------
   menuBtn.addEventListener("click", (e) => {
     e.preventDefault();
     const willOpen = !sideNav.classList.contains("open");
     setNavOpen(willOpen, true);
-
     if (willOpen) {
-      // Center currently active item if any
       const active = sideNav.querySelector("a.active");
       if (active) active.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   });
 
-  // ---- Keep sidebar open when clicking lessons ---------------------------
+  // ---- Lesson click handler ----------------------------------------------
   sideNav.addEventListener("click", (e) => {
     const link = e.target.closest("a[data-topic]");
     if (!link) return;
-
-    // Let lessonLoader.js handle loading (do NOT stopPropagation)
     e.preventDefault();
 
-    // Highlight in the nav
     sideNav.querySelectorAll("a.active").forEach(a => a.classList.remove("active"));
     link.classList.add("active");
+
     localStorage.setItem(KEYS.ACTIVE, JSON.stringify({
       section: link.dataset.section,
       topic: link.dataset.topic
     }));
 
-    // Ensure expanded section stays open
     const holder = link.closest(".lesson-list");
     if (holder && holder.classList.contains("hidden")) holder.classList.remove("hidden");
 
-    // Force the nav to remain open even if another handler closes it
     setNavOpen(true, true);
-    // Re-assert open state on the next frame (wins over later listeners)
     requestAnimationFrame(() => setTimeout(() => setNavOpen(true, true), 0));
-
-    // Keep the clicked item centered
     link.scrollIntoView({ behavior: "smooth", block: "center" });
   });
 
-  // ---- Close on outside click ONLY on small screens ----------------------
+  // ---- Close on outside click (mobile only) ------------------------------
   document.addEventListener("click", (e) => {
     if (isDesktop()) return;
     if (!sideNav.contains(e.target) && !menuBtn.contains(e.target)) {
@@ -195,22 +186,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // ---- Restore active link on load (optional) ----------------------------
+  // ---- Restore active link -----------------------------------------------
   try {
     const saved = JSON.parse(localStorage.getItem(KEYS.ACTIVE) || "null");
     if (saved) {
-      const selector = `a[data-section="${saved.section}"][data-topic="${saved.topic}"], a[data-topic="${saved.topic}"]`;
-      const a = sideNav.querySelector(selector) || sideNav.querySelector(`a[data-topic="${saved.topic}"]`);
-      if (a) a.classList.add("active");
+      const selector = `a[data-section="${saved.section}"][data-topic="${saved.topic}"]`;
+      const a = sideNav.querySelector(selector);
+      if (a) {
+        a.classList.add("active");
+        a.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
     }
   } catch {}
 
-  // ---- Auto-open on resize rules -----------------------------------------
+  // ---- Auto-open on resize -----------------------------------------------
   window.addEventListener("resize", () => {
-    // If there's no explicit user preference yet, adapt to viewport
     if (localStorage.getItem(KEYS.NAV_OPEN) === null) {
       setNavOpen(isDesktop(), false);
     }
   });
 });
-``

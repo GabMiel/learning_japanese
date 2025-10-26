@@ -1,0 +1,11 @@
+{
+  "title": "Lesson 2: Ordinal Numbers",
+  "ordinal_numbers": [
+    { "en": "First", "jp": "第一", "romaji": "Dai-ichi", "sound": "first.mp3" },
+    { "en": "Second", "jp": "第二", "romaji": "Dai-ni", "sound": "second.mp3" },
+    { "en": "Fifth", "jp": "第五", "romaji": "Dai-go", "sound": "fifth.mp3" },
+    { "en": "Eighth", "jp": "第八", "romaji": "Dai-hachi", "sound": "eighth.mp3" },
+    { "en": "Twenty-second", "jp": "第二十二", "romaji": "Dai-ni-jū-ni", "sound": "twentysecond.mp3" },
+    { "en": "Hundredth", "jp": "第百", "romaji": "Dai-hyaku", "sound": "hundredth.mp3" }
+  ]
+}

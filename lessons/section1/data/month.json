@@ -1,0 +1,17 @@
+{
+  "title": "Lesson 5: Months",
+  "months": [
+    { "en": "January", "jp": "一月", "romaji": "Ichi-gatsu", "sound": "january.mp3" },
+    { "en": "February", "jp": "二月", "romaji": "Ni-gatsu", "sound": "february.mp3" },
+    { "en": "March", "jp": "三月", "romaji": "San-gatsu", "sound": "march.mp3" },
+    { "en": "April", "jp": "四月", "romaji": "Shi-gatsu", "sound": "april.mp3" },
+    { "en": "May", "jp": "五月", "romaji": "Go-gatsu", "sound": "may.mp3" },
+    { "en": "June", "jp": "六月", "romaji": "Roku-gatsu", "sound": "june.mp3" },
+    { "en": "July", "jp": "七月", "romaji": "Shichi-gatsu", "sound": "july.mp3" },
+    { "en": "August", "jp": "八月", "romaji": "Hachi-gatsu", "sound": "august.mp3" },
+    { "en": "September", "jp": "九月", "romaji": "Ku-gatsu", "sound": "september.mp3" },
+    { "en": "October", "jp": "十月", "romaji": "Jū-gatsu", "sound": "october.mp3" },
+    { "en": "November", "jp": "十一月", "romaji": "Jū-ichi-gatsu", "sound": "november.mp3" },
+    { "en": "December", "jp": "十二月", "romaji": "Jū-ni-gatsu", "sound": "december.mp3" }
+  ]
+}

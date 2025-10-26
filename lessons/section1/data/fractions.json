@@ -1,0 +1,8 @@
+{
+  "title": "Lesson 3: Fractions",
+  "fractions": [
+    { "en": "Half", "jp": "半分", "romaji": "Hanbun", "sound": "half.mp3" },
+    { "en": "Third", "jp": "三分の一", "romaji": "Sanbun no ichi", "sound": "third.mp3" },
+    { "en": "Quarter", "jp": "四分の一", "romaji": "Shibun no ichi", "sound": "quarter.mp3" }
+  ]
+}

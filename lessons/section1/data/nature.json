@@ -1,0 +1,14 @@
+{
+  "title": "Lesson 9: Nature",
+  "nature": [
+    { "en": "Sun", "jp": "太陽", "romaji": "Taiyō", "sound": "sun.mp3" },
+    { "en": "Moon", "jp": "月", "romaji": "Tsuki", "sound": "moon.mp3" },
+    { "en": "Star", "jp": "星", "romaji": "Hoshi", "sound": "star.mp3" },
+    { "en": "Earth", "jp": "地球", "romaji": "Chikyū", "sound": "earth.mp3" },
+    { "en": "Rain", "jp": "雨", "romaji": "Ame", "sound": "rain.mp3" },
+    { "en": "Snow", "jp": "雪", "romaji": "Yuki", "sound": "snow.mp3" },
+    { "en": "Cloud", "jp": "雲", "romaji": "Kumo", "sound": "cloud.mp3" },
+    { "en": "Thunder", "jp": "雷", "romaji": "Kaminari", "sound": "thunder.mp3" },
+    { "en": "Lightning", "jp": "稲光", "romaji": "Inabikari", "sound": "lightning.mp3" }
+  ]
+}

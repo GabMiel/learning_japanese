@@ -1,0 +1,8 @@
+{
+  "title": "Lesson 4: Multiple Numbers",
+  "multiple_numbers": [
+    { "en": "Double", "jp": "二倍", "romaji": "Ni-bai", "sound": "double.mp3" },
+    { "en": "Treble", "jp": "三倍", "romaji": "San-bai", "sound": "treble.mp3" },
+    { "en": "Fourfold", "jp": "四倍", "romaji": "Shi-bai", "sound": "fourfold.mp3" }
+  ]
+}

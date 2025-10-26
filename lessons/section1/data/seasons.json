@@ -1,0 +1,9 @@
+{
+  "title": "Lesson 7: Seasons",
+  "seasons": [
+    { "en": "Spring", "jp": "春", "romaji": "Haru", "sound": "spring.mp3" },
+    { "en": "Summer", "jp": "夏", "romaji": "Natsu", "sound": "summer.mp3" },
+    { "en": "Autumn", "jp": "秋", "romaji": "Aki", "sound": "autumn.mp3" },
+    { "en": "Winter", "jp": "冬", "romaji": "Fuyu", "sound": "winter.mp3" }
+  ]
+}

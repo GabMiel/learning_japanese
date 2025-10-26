@@ -1,0 +1,12 @@
+{
+  "title": "Lesson 6: Weekdays",
+  "weekdays": [
+    { "en": "Monday", "jp": "月曜", "romaji": "Getsuyō", "sound": "monday.mp3" },
+    { "en": "Tuesday", "jp": "火曜", "romaji": "Kayō", "sound": "tuesday.mp3" },
+    { "en": "Wednesday", "jp": "水曜", "romaji": "Suiyō", "sound": "wednesday.mp3" },
+    { "en": "Thursday", "jp": "木曜", "romaji": "Mokuyō", "sound": "thursday.mp3" },
+    { "en": "Friday", "jp": "金曜", "romaji": "Kin'yō", "sound": "friday.mp3" },
+    { "en": "Saturday", "jp": "土曜", "romaji": "Doyō", "sound": "saturday.mp3" },
+    { "en": "Sunday", "jp": "日曜", "romaji": "Nichiyō", "sound": "sunday.mp3" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Lesson 8: Time",
+  "time": [
+    { "en": "A week", "jp": "一週間", "romaji": "Isshūkan", "sound": "week.mp3" },
+    { "en": "Today", "jp": "今日", "romaji": "Kyō", "sound": "today.mp3" },
+    { "en": "Tomorrow", "jp": "明日", "romaji": "Asu", "sound": "tomorrow.mp3" },
+    { "en": "Yesterday", "jp": "昨日", "romaji": "Kinō", "sound": "yesterday.mp3" },
+    { "en": "Day after tomorrow", "jp": "明後日", "romaji": "Asatte", "sound": "dayaftertomorrow.mp3" },
+    { "en": "Day before yesterday", "jp": "一昨日", "romaji": "Ototoi", "sound": "daybeforeyesterday.mp3" }
+  ]
+}

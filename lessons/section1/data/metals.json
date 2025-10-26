@@ -1,0 +1,12 @@
+{
+  "title": "Lesson 10: Metals",
+  "metals": [
+    { "en": "Gold", "jp": "金", "romaji": "Kin", "sound": "gold.mp3" },
+    { "en": "Silver", "jp": "銀", "romaji": "Gin", "sound": "silver.mp3" },
+    { "en": "Copper", "jp": "銅", "romaji": "Dō", "sound": "copper.mp3" },
+    { "en": "Iron", "jp": "鉄", "romaji": "Tetsu", "sound": "iron.mp3" },
+    { "en": "Lead", "jp": "鉛", "romaji": "Namari", "sound": "lead.mp3" },
+    { "en": "Steel", "jp": "鋼", "romaji": "Hagane", "sound": "steel.mp3" },
+    { "en": "Coal", "jp": "石炭", "romaji": "Sekitan", "sound": "coal.mp3" }
+  ]
+}
