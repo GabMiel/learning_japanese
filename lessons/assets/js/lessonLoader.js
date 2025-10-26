@@ -1,4 +1,4 @@
-// lessonLoader.js — optimized for dynamic lessons + GitHub Pages path fix
+// lessonLoader.js — GitHub Pages absolute path fix
 document.addEventListener("DOMContentLoaded", () => {
   const cardContainer = document.getElementById("cardContainer");
   const sideNav = document.getElementById("sideNav");
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!cardContainer || !sideNav) return;
 
-  // 🔹 Create lesson header
+  // Create lesson header
   let lessonHeader = document.querySelector(".lesson-header");
   if (!lessonHeader) {
     lessonHeader = document.createElement("div");
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cardContainer.parentElement.insertBefore(lessonHeader, cardContainer);
   }
 
-  // 🔹 Hide header on scroll
+  // Hide header on scroll
   if (header) {
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 🔹 Sanitize HTML
+  // Sanitize HTML
   function escapeHtml(str) {
     return String(str)
       .replace(/&/g, "&amp;")
@@ -33,13 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/>/g, "&gt;");
   }
 
-  // 🔹 Load lesson data
+  // Load lesson data
   async function loadLesson(section, topic) {
-    // ✅ Correct path for GitHub Pages and local
-    const jsonPath = `${section}/data/${topic}.json`;
+    const basePath = "/learning_japanese/lessons"; // ✅ GitHub Pages root
+    const jsonPath = `${basePath}/${section}/data/${topic}.json`;
     console.log("Loading JSON:", jsonPath);
 
-    // Show loading animation
     cardContainer.innerHTML = `<div class="loading-spinner"></div>`;
     lessonHeader.innerHTML = "";
 
@@ -48,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
 
-      // ✅ Detect correct array key dynamically
       const keys = Object.keys(data).filter(k => Array.isArray(data[k]));
       const items = keys.length ? data[keys[0]] : [];
 
@@ -57,11 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      // 🔹 Lesson Title
       const lessonTitle = escapeHtml(data.title || `Lesson: ${topic}`);
       lessonHeader.innerHTML = `<h1 class="lesson-title">${lessonTitle}</h1>`;
 
-      // 🔹 Render Cards
       cardContainer.innerHTML = items.map(item => `
         <div class="card" data-sound="${item.sound || ""}">
           <h2>${escapeHtml(item.en || "")}</h2>
@@ -70,20 +66,15 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       `).join("");
 
-      // 🔹 Add Sound Click Event
       cardContainer.querySelectorAll(".card").forEach(card => {
         card.addEventListener("click", () => {
           const soundFile = card.dataset.sound;
           if (soundFile) {
-            const audioPath = `${section}/sounds/${soundFile}`;
+            const audioPath = `${basePath}/${section}/sounds/${soundFile}`;
             console.log("🔊 Playing sound:", audioPath);
             const audio = new Audio(audioPath);
             audio.play().catch(err => console.warn("Sound play error:", err));
-          } else {
-            console.warn("⚠️ No sound file found for this card.");
           }
-
-          // Click animation
           card.classList.add("clicked");
           setTimeout(() => card.classList.remove("clicked"), 200);
         });
@@ -94,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 🔹 Sidebar click handler
+  // Sidebar click handler
   sideNav.addEventListener("click", (e) => {
     const link = e.target.closest("a[data-topic]");
     if (!link) return;
@@ -104,11 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const sectionBtn = link.closest(".section-item")?.querySelector(".section-btn");
     if (sectionBtn && headerTitle) headerTitle.textContent = sectionBtn.textContent;
 
-    // Highlight active link
     document.querySelectorAll("#sideNav a.active").forEach(a => a.classList.remove("active"));
     link.classList.add("active");
 
-    // Save active lesson
     localStorage.setItem("sidenav:active", JSON.stringify({
       section: link.dataset.section,
       topic: link.dataset.topic,
@@ -118,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
     sideNav.classList.remove("open");
   });
 
-  // 🔹 Restore last active lesson
+  // Restore last active lesson
   try {
     const saved = JSON.parse(localStorage.getItem("sidenav:active") || "null");
     if (saved) {
@@ -134,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.warn("Failed to restore saved lesson:", e);
   }
 
-  // 🔹 Default load
+  // Default load
   if (headerTitle) headerTitle.textContent = "Section 1 — Basic Vocabulary";
   loadLesson("section1", "numbers");
 });
