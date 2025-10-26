@@ -1,14 +1,15 @@
 {
+  "title": "Lesson 1: Japanese Numbers",
   "numbers": [
-    { "en": "One", "jp": "一", "romaji": "Ichi" },
-    { "en": "Two", "jp": "二", "romaji": "Ni" },
-    { "en": "Three", "jp": "三", "romaji": "San" },
-    { "en": "Four", "jp": "四", "romaji": "Shi" },
-    { "en": "Five", "jp": "五", "romaji": "Go" },
-    { "en": "Six", "jp": "六", "romaji": "Roku" },
-    { "en": "Seven", "jp": "七", "romaji": "Shichi" },
-    { "en": "Eight", "jp": "八", "romaji": "Hachi" },
-    { "en": "Nine", "jp": "九", "romaji": "Kyū" },
-    { "en": "Ten", "jp": "十", "romaji": "Jū" }
+    { "en": "One", "jp": "一", "romaji": "Ichi", "sound": "one.mp3" },
+    { "en": "Two", "jp": "二", "romaji": "Ni", "sound": "two.mp3" },
+    { "en": "Three", "jp": "三", "romaji": "San", "sound": "three.mp3" },
+    { "en": "Four", "jp": "四", "romaji": "Shi", "sound": "four.mp3" },
+    { "en": "Five", "jp": "五", "romaji": "Go", "sound": "five.mp3" },
+    { "en": "Six", "jp": "六", "romaji": "Roku", "sound": "six.mp3" },
+    { "en": "Seven", "jp": "七", "romaji": "Shichi", "sound": "seven.mp3" },
+    { "en": "Eight", "jp": "八", "romaji": "Hachi", "sound": "eight.mp3" },
+    { "en": "Nine", "jp": "九", "romaji": "Kyū", "sound": "nine.mp3" },
+    { "en": "Ten", "jp": "十", "romaji": "Jū", "sound": "ten.mp3" }
   ]
 }
