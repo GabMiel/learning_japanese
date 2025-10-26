@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 🔹 Load lesson data
   async function loadLesson(section, topic) {
-    const jsonPath = `../${section}/data/${topic}.json`;
+    const jsonPath = `${section}/data/${topic}.json`;
     console.log("Loading JSON:", jsonPath);
 
     // Show loading animation
