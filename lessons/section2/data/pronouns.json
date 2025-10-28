@@ -1,0 +1,9 @@
+{
+  "title": "Lesson: Pronouns",
+  "pronouns": [
+    { "en": "I", "jp": "私", "romaji": "Watakushi", "sound": "i.mp3" },
+    { "en": "You", "jp": "あなた", "romaji": "Anata", "sound": "you.mp3" },
+    { "en": "He (or she)", "jp": "あの方", "romaji": "Ano-kata", "sound": "he_she.mp3" },
+    { "en": "It", "jp": "それ", "romaji": "Sore", "sound": "it.mp3" }
+  ]
+}
