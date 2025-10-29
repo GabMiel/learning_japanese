@@ -1,0 +1,35 @@
+{
+  "title": "Lesson: Prepositions",
+  "prepositions": [
+    {
+      "en": "At the Imperial Hotel.",
+      "jp": "帝国ホテルで or に",
+      "romaji": "Teikoku Hotel de or ni",
+      "sound": "at_imperial_hotel.mp3"
+    },
+    {
+      "en": "I will meet you at the Imperial Hotel.",
+      "jp": "帝国ホテルで会います",
+      "romaji": "Teikoku Hotel de ai masu",
+      "sound": "meet_at_imperial_hotel.mp3"
+    },
+    {
+      "en": "I am at the Imperial Hotel.",
+      "jp": "帝国ホテルにいます",
+      "romaji": "Teikoku Hotel ni imasu",
+      "sound": "i_am_at_imperial_hotel.mp3"
+    },
+    {
+      "en": "I will stay in Tokyo.",
+      "jp": "東京に泊まりましょう",
+      "romaji": "Tokyo ni tomari ma shō",
+      "sound": "stay_in_tokyo.mp3"
+    },
+    {
+      "en": "I will pay you on Monday.",
+      "jp": "月曜に払います",
+      "romaji": "Getsuyō ni harai ma shō",
+      "sound": "pay_on_monday.mp3"
+    }
+  ]
+}
