@@ -1,0 +1,29 @@
+{
+  "title": "Lesson: This and That",
+  "this_and_that": [
+    {
+      "en": "This",
+      "jp": "これ",
+      "romaji": "Kore",
+      "sound": "this.mp3"
+    },
+    {
+      "en": "That",
+      "jp": "それ",
+      "romaji": "Sore",
+      "sound": "that.mp3"
+    },
+    {
+      "en": "Plural form of This",
+      "jp": "これら",
+      "romaji": "Kore-ra",
+      "sound": "plural_this.mp3"
+    },
+    {
+      "en": "Plural form of That",
+      "jp": "それら",
+      "romaji": "Sore-ra",
+      "sound": "plural_that.mp3"
+    }
+  ]
+}

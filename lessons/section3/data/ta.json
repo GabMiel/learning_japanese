@@ -1,0 +1,35 @@
+{
+  "title": "Lesson: TA (Past Indicative)",
+  "ta": [
+    {
+      "en": "Tokyo was Edo.",
+      "jp": "東京は江戸でした",
+      "romaji": "Tokyo wa Edo deshita",
+      "sound": "tokyo_was_edo.mp3"
+    },
+    {
+      "en": "It was pretty.",
+      "jp": "それはきれいでした",
+      "romaji": "Sore wa kirei deshita",
+      "sound": "it_was_pretty.mp3"
+    },
+    {
+      "en": "They were actors.",
+      "jp": "あの人たちは俳優でした",
+      "romaji": "Ano-hito-tachi wa haiyū deshita",
+      "sound": "they_were_actors.mp3"
+    },
+    {
+      "en": "He was a preacher.",
+      "jp": "あの方は牧師でした",
+      "romaji": "Ano-kata wa bokushi deshita",
+      "sound": "he_was_a_preacher.mp3"
+    },
+    {
+      "en": "She was a school girl.",
+      "jp": "あの方は学生でした",
+      "romaji": "Ano-kata wa gakusei deshita",
+      "sound": "she_was_schoolgirl.mp3"
+    }
+  ]
+}

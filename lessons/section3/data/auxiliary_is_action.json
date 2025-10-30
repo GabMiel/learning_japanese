@@ -1,0 +1,53 @@
+{
+  "title": "Lesson: Auxiliary Verb 'Is' (Action)",
+  "auxiliary_is_action": [
+    {
+      "en": "I go (present affirmative).",
+      "jp": "行きます",
+      "romaji": "Iki masu",
+      "sound": "i_go_present_affirmative.mp3"
+    },
+    {
+      "en": "I do not go (present negative).",
+      "jp": "行きません",
+      "romaji": "Iki masen",
+      "sound": "i_do_not_go_present_negative.mp3"
+    },
+    {
+      "en": "I went (past affirmative).",
+      "jp": "行きました",
+      "romaji": "Iki mashita",
+      "sound": "i_went_past_affirmative.mp3"
+    },
+    {
+      "en": "I did not go (past negative).",
+      "jp": "行きませんでした",
+      "romaji": "Iki masen deshita",
+      "sound": "i_did_not_go_past_negative.mp3"
+    },
+    {
+      "en": "I will go (future affirmative).",
+      "jp": "行きましょう",
+      "romaji": "Iki mashō",
+      "sound": "i_will_go_future_affirmative.mp3"
+    },
+    {
+      "en": "I will not go (future negative).",
+      "jp": "行きませんでしょう",
+      "romaji": "Iki masen deshō",
+      "sound": "i_will_not_go_future_negative.mp3"
+    },
+    {
+      "en": "Please go (polite request).",
+      "jp": "行ってください",
+      "romaji": "Itte kudasai",
+      "sound": "please_go_polite_request.mp3"
+    },
+    {
+      "en": "Please do not go (polite negative request).",
+      "jp": "行かないでください",
+      "romaji": "Ikanai de kudasai",
+      "sound": "please_do_not_go_polite_request.mp3"
+    }
+  ]
+}

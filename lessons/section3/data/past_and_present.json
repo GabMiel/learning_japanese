@@ -1,0 +1,29 @@
+{
+  "title": "Lesson: Past and Present",
+  "past_and_present": [
+    {
+      "en": "Do you go?",
+      "jp": "あなたは行きますか",
+      "romaji": "Anata wa yuki masu ka",
+      "sound": "do_you_go.mp3"
+    },
+    {
+      "en": "Did you go?",
+      "jp": "あなたは行きましたか",
+      "romaji": "Anata wa yuki mashita ka",
+      "sound": "did_you_go.mp3"
+    },
+    {
+      "en": "Do you understand?",
+      "jp": "あなたは分かりますか",
+      "romaji": "Anata wa wakari masu ka",
+      "sound": "do_you_understand.mp3"
+    },
+    {
+      "en": "Did you understand?",
+      "jp": "あなたは分かりましたか",
+      "romaji": "Anata wa wakari mashita ka",
+      "sound": "did_you_understand.mp3"
+    }
+  ]
+}

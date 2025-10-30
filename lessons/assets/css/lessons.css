@@ -150,7 +150,7 @@ header h1 {
   border-left: 2px solid rgba(255, 215, 0, 0.35);
   border-radius: 8px;
   overflow: hidden;
-  max-height: 540px;
+  max-height: 1000px; /* Height of Sidebar Topics*/
   opacity: 1;
   padding: 6px 0 8px 0;
   transition: all 0.35s ease;

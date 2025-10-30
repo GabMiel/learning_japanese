@@ -23,9 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
       "prepositions",
       "this_and_that",
       "suffix_in_subjective_case",
-      "what_who_which_when_where_whose_whom",
+      "interrogatives",
       "suffix_in_objective_case",
-      "su_ta_sho",
+      "ta",
+      "su",
+      "sho",
       "past_and_present",
       "auxiliary_is_being",
       "auxiliary_is_action"

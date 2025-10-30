@@ -1,0 +1,41 @@
+{
+  "title": "Lesson: SHŌ (Future / Probability)",
+  "sho": [
+    {
+      "en": "It may be pretty.",
+      "jp": "それはきれいでしょう",
+      "romaji": "Sore wa kirei deshō",
+      "sound": "it_may_be_pretty.mp3"
+    },
+    {
+      "en": "That will be interesting.",
+      "jp": "それは面白いでしょう",
+      "romaji": "Sore wa omoshiroi deshō",
+      "sound": "that_will_be_interesting.mp3"
+    },
+    {
+      "en": "That may be difficult.",
+      "jp": "それは難しいでしょう",
+      "romaji": "Sore wa muzukashii deshō",
+      "sound": "that_may_be_difficult.mp3"
+    },
+    {
+      "en": "It will be easy.",
+      "jp": "それは易しいでしょう",
+      "romaji": "Sore wa yasashii deshō",
+      "sound": "it_will_be_easy.mp3"
+    },
+    {
+      "en": "It may be cheap.",
+      "jp": "それは安いでしょう",
+      "romaji": "Sore wa yasui deshō",
+      "sound": "it_may_be_cheap.mp3"
+    },
+    {
+      "en": "That may be dear.",
+      "jp": "それは高いでしょう",
+      "romaji": "Sore wa takai deshō",
+      "sound": "that_may_be_dear.mp3"
+    }
+  ]
+}

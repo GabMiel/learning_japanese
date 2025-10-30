@@ -1,0 +1,13 @@
+{
+  "title": "Lesson: Interrogatives",
+  "what_who_which_when_where_whose_whom": [
+    { "en": "What", "jp": "なに", "romaji": "Nani", "sound": "what.mp3" },
+    { "en": "Who", "jp": "だれ", "romaji": "Dare", "sound": "who.mp3" },
+    { "en": "Which", "jp": "どちら", "romaji": "Dochira", "sound": "which.mp3" },
+    { "en": "When", "jp": "いつ", "romaji": "Itsu", "sound": "when.mp3" },
+    { "en": "Where", "jp": "どこ", "romaji": "Doko", "sound": "where.mp3" },
+    { "en": "Why", "jp": "なぜ", "romaji": "Naze", "sound": "why.mp3" },
+    { "en": "Whose", "jp": "だれの", "romaji": "Dare-no", "sound": "whose.mp3" },
+    { "en": "Whom", "jp": "だれを", "romaji": "Dare-o", "sound": "whom.mp3" }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Lesson: Auxiliary Verb 'Is' (Being)",
+  "auxiliary_is_being": [
+    {
+      "en": "It is (present affirmative).",
+      "jp": "です",
+      "romaji": "Desu",
+      "sound": "it_is_present_affirmative.mp3"
+    },
+    {
+      "en": "It is not (present negative).",
+      "jp": "でない",
+      "romaji": "De-nai",
+      "sound": "it_is_not_present_negative.mp3"
+    },
+    {
+      "en": "It was (past affirmative).",
+      "jp": "でした",
+      "romaji": "Deshita",
+      "sound": "it_was_past_affirmative.mp3"
+    },
+    {
+      "en": "It was not (past negative).",
+      "jp": "でありませんでした",
+      "romaji": "De arimasen deshita",
+      "sound": "it_was_not_past_negative.mp3"
+    },
+    {
+      "en": "It will be (future affirmative).",
+      "jp": "でしょう",
+      "romaji": "Deshō",
+      "sound": "it_will_be_future_affirmative.mp3"
+    },
+    {
+      "en": "It will not be (future negative).",
+      "jp": "でないでしょう",
+      "romaji": "De-nai deshō",
+      "sound": "it_will_not_be_future_negative.mp3"
+    }
+  ]
+}

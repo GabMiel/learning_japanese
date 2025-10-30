@@ -1,0 +1,65 @@
+{
+  "title": "Lesson: Suffix in Objective Case",
+  "suffix_in_objective_case": [
+    {
+      "en": "I buy this.",
+      "jp": "これを買います",
+      "romaji": "Kore o kai masu",
+      "sound": "i_buy_this.mp3"
+    },
+    {
+      "en": "I read the book.",
+      "jp": "本を読みます",
+      "romaji": "Hon o yomi masu",
+      "sound": "i_read_the_book.mp3"
+    },
+    {
+      "en": "I write a letter.",
+      "jp": "手紙を書きます",
+      "romaji": "Tegami o kaki masu",
+      "sound": "i_write_a_letter.mp3"
+    },
+    {
+      "en": "I drink water.",
+      "jp": "水を飲みます",
+      "romaji": "Mizu o nomi masu",
+      "sound": "i_drink_water.mp3"
+    },
+    {
+      "en": "I eat rice.",
+      "jp": "ご飯を食べます",
+      "romaji": "Gohan o tabe masu",
+      "sound": "i_eat_rice.mp3"
+    },
+    {
+      "en": "I see the mountain.",
+      "jp": "山を見ます",
+      "romaji": "Yama o mi masu",
+      "sound": "i_see_the_mountain.mp3"
+    },
+    {
+      "en": "I open the door.",
+      "jp": "ドアを開けます",
+      "romaji": "Doa o ake masu",
+      "sound": "i_open_the_door.mp3"
+    },
+    {
+      "en": "I close the window.",
+      "jp": "窓を閉めます",
+      "romaji": "Mado o shime masu",
+      "sound": "i_close_the_window.mp3"
+    },
+    {
+      "en": "I call a friend.",
+      "jp": "友達を呼びます",
+      "romaji": "Tomodachi o yobi masu",
+      "sound": "i_call_a_friend.mp3"
+    },
+    {
+      "en": "I wait for the train.",
+      "jp": "電車を待ちます",
+      "romaji": "Densha o machi masu",
+      "sound": "i_wait_for_the_train.mp3"
+    }
+  ]
+}
