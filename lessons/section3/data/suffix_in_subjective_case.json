@@ -1,13 +1,53 @@
 {
   "title": "Lesson: Suffix in Subjective Case",
   "suffix_in_subjective_case": [
-    { "en": "This is good.", "jp": "これはよい", "romaji": "Kore wa yoi", "sound": "this_is_good.mp3" },
-    { "en": "This is beautiful.", "jp": "これはきれい", "romaji": "Kore wa kirei", "sound": "this_is_beautiful.mp3" },
-    { "en": "This is delightful.", "jp": "これはてっき", "romaji": "Kore wa tekkī", "sound": "this_is_delightful.mp3" },
-    { "en": "This is delicious.", "jp": "これはうまい", "romaji": "Kore wa umai", "sound": "this_is_delicious.mp3" },
-    { "en": "This is cute.", "jp": "これはかわらしい", "romaji": "Kore wa kawarashii", "sound": "this_is_cute.mp3" },
-    { "en": "That is bad.", "jp": "それはわるい", "romaji": "Sore wa warui", "sound": "that_is_bad.mp3" },
-    { "en": "That is ugly.", "jp": "それはきたない", "romaji": "Sore wa kitanai", "sound": "that_is_ugly.mp3" },
-    { "en": "That is horrible.", "jp": "それはひどい", "romaji": "Sore wa hidoi", "sound": "that_is_horrible.mp3" }
+    {
+      "en": "This is good.",
+      "jp": "これはよい",
+      "romaji": "Kore wa yoi",
+      "sound": "this_is_good.mp3"
+    },
+    {
+      "en": "This is beautiful.",
+      "jp": "これはきれい",
+      "romaji": "Kore wa kirei",
+      "sound": "this_is_beautiful.mp3"
+    },
+    {
+      "en": "This is delightful.",
+      "jp": "これはてっき",
+      "romaji": "Kore wa tekkī",
+      "sound": "this_is_delightful.mp3"
+    },
+    {
+      "en": "This is delicious.",
+      "jp": "これはうまい",
+      "romaji": "Kore wa umai",
+      "sound": "this_is_delicious.mp3"
+    },
+    {
+      "en": "This is cute.",
+      "jp": "これはかわらしい",
+      "romaji": "Kore wa kawarashii",
+      "sound": "this_is_cute.mp3"
+    },
+    {
+      "en": "That is bad.",
+      "jp": "それはわるい",
+      "romaji": "Sore wa warui",
+      "sound": "that_is_bad.mp3"
+    },
+    {
+      "en": "That is ugly.",
+      "jp": "それはきたない",
+      "romaji": "Sore wa kitanai",
+      "sound": "that_is_ugly.mp3"
+    },
+    {
+      "en": "That is horrible.",
+      "jp": "それはひどい",
+      "romaji": "Sore wa hidoi",
+      "sound": "that_is_horrible.mp3"
+    }
   ]
 }
