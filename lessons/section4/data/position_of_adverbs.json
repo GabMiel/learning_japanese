@@ -1,0 +1,54 @@
+{
+  "title": "Lesson: Position of Adverbs",
+  "position_of_adverbs": [
+    {
+      "en": "I now returned.",
+      "jp": "私は今帰りました",
+      "romaji": "Watakushi wa ima kaeri-mashita",
+      "sound": "i_now_returned.mp3",
+      "note": "Adverb 'ima' (now) comes before the verb."
+    },
+    {
+      "en": "He is just eating breakfast.",
+      "jp": "あの方はちょうど朝飯を食べています",
+      "romaji": "Ano-kata wa chōdo asameshi o tabete imasu",
+      "sound": "he_is_just_eating_breakfast.mp3",
+      "note": "Adverb 'chōdo' (just) precedes the object phrase."
+    },
+    {
+      "en": "I am busy lately.",
+      "jp": "私は近頃忙しいございます",
+      "romaji": "Watakushi wa chikagoro isogashii gozaimasu",
+      "sound": "i_am_busy_lately.mp3",
+      "note": "Adverb 'chikagoro' (lately) comes before the adjective."
+    },
+    {
+      "en": "I formerly lived in that house.",
+      "jp": "私は以前あの家に住みました",
+      "romaji": "Watakushi wa izen ano ie ni sumi-mashita",
+      "sound": "i_formerly_lived_in_that_house.mp3",
+      "note": "Adverb 'izen' (formerly) precedes the object phrase."
+    },
+    {
+      "en": "I still believe him.",
+      "jp": "私はなおあの方を信じます",
+      "romaji": "Watakushi wa nao ano kata o shinji-masu",
+      "sound": "i_still_believe_him.mp3",
+      "note": "Adverb 'nao' (still) comes before the object."
+    },
+    {
+      "en": "Did you turn around backwards?",
+      "jp": "あなたは後ろの方へふり向きましたか",
+      "romaji": "Anata wa ushiro-no-hō e furimuki-mashita ka",
+      "sound": "did_you_turn_around_backwards.mp3",
+      "note": "Directional adverb 'ushiro-no-hō' (backwards) follows the particle 'e'."
+    },
+    {
+      "en": "I saw a completely snow-covered Fuji.",
+      "jp": "私はすっかり雪に覆われた富士を見た",
+      "romaji": "Watakushi wa sukkari yuki ni ōwareta Fuji o mita",
+      "sound": "i_saw_completely_snow_covered_fuji.mp3",
+      "note": "Adverb 'sukkari' (completely) precedes the adjective phrase."
+    }
+  ]
+}

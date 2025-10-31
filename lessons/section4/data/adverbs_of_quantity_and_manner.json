@@ -1,0 +1,13 @@
+{
+  "title": "Lesson: Adverbs of Quantity and Manner",
+  "adverbs_of_quantity_and_manner": [
+    { "en": "Skilfully", "jp": "巧みに", "romaji": "Takumi-ni", "sound": "skilfully.mp3" },
+    { "en": "Readily", "jp": "造作なく", "romaji": "Zōsa naku", "sound": "readily.mp3" },
+    { "en": "Well", "jp": "よく", "romaji": "Yoku", "sound": "well.mp3" },
+    { "en": "Fast", "jp": "早く", "romaji": "Hayaku", "sound": "fast.mp3" },
+    { "en": "Slowly", "jp": "そろそろ or ゆっくり", "romaji": "Soro-soro or Yukkuri", "sound": "slowly.mp3" },
+    { "en": "Kindly", "jp": "親切に", "romaji": "Shinsetsu ni", "sound": "kindly.mp3" },
+    { "en": "Fluently", "jp": "流暢に", "romaji": "Ryūchō ni", "sound": "fluently.mp3" },
+    { "en": "Quietly", "jp": "静かに", "romaji": "Shizuka ni", "sound": "quietly.mp3" }
+  ]
+}

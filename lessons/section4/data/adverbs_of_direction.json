@@ -1,0 +1,13 @@
+{
+  "title": "Lesson: Adverbs of Direction",
+  "adverbs_of_direction": [
+    { "en": "Forward", "jp": "前の方", "romaji": "Mae-no hō", "sound": "forward.mp3" },
+    { "en": "Backward", "jp": "後ろの方", "romaji": "Ushiro-no hō", "sound": "backward.mp3" },
+    { "en": "Eastward", "jp": "東の方", "romaji": "Higashi-no hō", "sound": "eastward.mp3" },
+    { "en": "Westward", "jp": "西の方", "romaji": "Nishi-no hō", "sound": "westward.mp3" },
+    { "en": "Southward", "jp": "南の方", "romaji": "Minami-no hō", "sound": "southward.mp3" },
+    { "en": "Northward", "jp": "北の方", "romaji": "Kita-no hō", "sound": "northward.mp3" },
+    { "en": "Outward", "jp": "外の方", "romaji": "Soto-no hō", "sound": "outward.mp3" },
+    { "en": "Inward", "jp": "内の方", "romaji": "Uchi-no hō", "sound": "inward.mp3" }
+  ]
+}
