@@ -49,10 +49,15 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
 
-      const keys = Object.keys(data).filter(k => Array.isArray(data[k]));
-      const items = keys.length ? data[keys[0]] : [];
+      // Determine if lesson data is nested (like letters)
+      const nestedKey = Object.keys(data).find(
+        k => typeof data[k] === "object" && !Array.isArray(data[k])
+      );
 
-      if (items.length === 0) {
+      let lettersData = nestedKey ? data[nestedKey] : data;
+
+      const letters = Object.keys(lettersData);
+      if (letters.length === 0) {
         cardContainer.innerHTML = "<p>No data found.</p>";
         return;
       }
@@ -60,20 +65,32 @@ document.addEventListener("DOMContentLoaded", () => {
       const lessonTitle = escapeHtml(data.title || `Lesson: ${topic}`);
       lessonHeader.innerHTML = `<h1 class="lesson-title">${lessonTitle}</h1>`;
 
-      cardContainer.innerHTML = items.map(item => `
-        <div class="card" data-sound="${item.sound || ""}">
-          <h2>${escapeHtml(item.en || "")}</h2>
-          <div class="jp">${escapeHtml(item.jp || "")}</div>
-          ${item.romaji ? `<div class="romaji">${escapeHtml(item.romaji)}</div>` : ""}
-        </div>
-      `).join("");
+      // Build cards HTML
+      let cardsHtml = "";
+      letters.forEach(letter => {
+        const items = lettersData[letter];
+        if (!Array.isArray(items)) return;
 
+        items.forEach((item, idx) => {
+          cardsHtml += `
+            <div class="card" data-sound="${item.sound || ""}">
+              ${idx === 0 && nestedKey ? `<div class="letter-label">${letter}</div>` : ""}
+              <h2>${escapeHtml(item.en || "")}</h2>
+              <div class="jp">${escapeHtml(item.jp || "")}</div>
+              ${item.romaji ? `<div class="romaji">${escapeHtml(item.romaji)}</div>` : ""}
+            </div>
+          `;
+        });
+      });
+
+      cardContainer.innerHTML = cardsHtml;
+
+      // Attach click events for sound
       cardContainer.querySelectorAll(".card").forEach(card => {
         card.addEventListener("click", () => {
           const soundFile = card.dataset.sound;
           if (soundFile) {
             const audioPath = `${basePath}/${section}/sounds/${soundFile}`;
-            console.log("🔊 Playing sound:", audioPath);
             const audio = new Audio(audioPath);
             audio.play().catch(err => console.warn("Sound play error:", err));
           }
@@ -81,6 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
           setTimeout(() => card.classList.remove("clicked"), 200);
         });
       });
+
     } catch (err) {
       console.error("Error loading:", err);
       cardContainer.innerHTML = `<p>Failed to load: ${escapeHtml(topic)}</p>`;

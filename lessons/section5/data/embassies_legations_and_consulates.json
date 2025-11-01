@@ -1,0 +1,39 @@
+{
+  "title": "Lesson: Embassies, Legations and Consulates",
+  "embassies_legations_and_consulates": [
+    {
+      "en": "Where is the American Embassy?",
+      "jp": "米国（or アメリカ）大使館はどこにありますか",
+      "romaji": "Beikoku (or Amerika) Taishi-kan wa doko ni arimasu ka",
+      "sound": "where_is_american_embassy.mp3"
+    },
+    { "en": "American", "jp": "米国（or アメリカ）", "romaji": "Beikoku (or Amerika)", "sound": "american.mp3" },
+    { "en": "Belgian", "jp": "ベルギー", "romaji": "Berugii", "sound": "belgian.mp3" },
+    { "en": "Brazilian", "jp": "ブラジル", "romaji": "Burajiru", "sound": "brazilian.mp3" },
+    { "en": "British", "jp": "英国（or イギリス）", "romaji": "Eikoku (or Igirisu)", "sound": "british.mp3" },
+    { "en": "Chinese", "jp": "中国", "romaji": "Chūgoku", "sound": "chinese.mp3" },
+    { "en": "Czechoslovakian", "jp": "チェコスロバキア", "romaji": "Chekko-surobakia", "sound": "czechoslovakian.mp3" },
+    { "en": "Danish", "jp": "デンマク", "romaji": "Denmaku", "sound": "danish.mp3" },
+    { "en": "French", "jp": "フランス", "romaji": "Furansu", "sound": "french.mp3" },
+    { "en": "German", "jp": "ドイツ", "romaji": "Doitsu", "sound": "german.mp3" },
+    { "en": "Greek", "jp": "ギリシャ", "romaji": "Girisha", "sound": "greek.mp3" },
+    { "en": "Indian", "jp": "インド", "romaji": "Indo", "sound": "indian.mp3" },
+    { "en": "Italian", "jp": "イタリア", "romaji": "Itaria", "sound": "italian.mp3" },
+    { "en": "Norwegian", "jp": "ノルウェイ", "romaji": "Noruwei", "sound": "norwegian.mp3" },
+    { "en": "Mexican", "jp": "メキシコ", "romaji": "Mekishiko", "sound": "mexican.mp3" },
+    { "en": "Portuguese", "jp": "ポルトガル", "romaji": "Porutogaru", "sound": "portuguese.mp3" },
+    { "en": "Russian", "jp": "ロシア", "romaji": "Roshia", "sound": "russian.mp3" },
+    { "en": "Soviet", "jp": "ソ連", "romaji": "Soren", "sound": "soviet.mp3" },
+    { "en": "Spanish", "jp": "スペイン", "romaji": "Supein", "sound": "spanish.mp3" },
+    { "en": "Swedish", "jp": "スエーデン", "romaji": "Sueiden", "sound": "swedish.mp3" },
+    { "en": "Turkish", "jp": "トルコ", "romaji": "Toruko", "sound": "turkish.mp3" },
+    { "en": "Swiss", "jp": "スイス", "romaji": "Suisu", "sound": "swiss.mp3" },
+    { "en": "U.S.A.", "jp": "米国（or アメリカ）", "romaji": "Beikoku (or Amerika)", "sound": "usa.mp3" },
+
+    { "en": "Embassy", "jp": "大使館", "romaji": "Taishi-kan", "sound": "embassy.mp3" },
+    { "en": "Legation", "jp": "公使館", "romaji": "Kōshi-kan", "sound": "legation.mp3" },
+    { "en": "Consulate General", "jp": "総領事館", "romaji": "Sō-ryōji-kan", "sound": "consulate_general.mp3" },
+    { "en": "Consulate", "jp": "領事館", "romaji": "Ryōji-kan", "sound": "consulate.mp3" },
+    { "en": "Commercial Attaché's Office", "jp": "商務官事務所", "romaji": "Shōmu-kan jimusho", "sound": "commercial_attache_office.mp3" }
+  ]
+}

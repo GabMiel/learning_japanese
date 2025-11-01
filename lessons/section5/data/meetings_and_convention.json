@@ -1,0 +1,148 @@
+{
+  "meetings_and_convention": {
+    "A": [
+      { "en": "Absence", "jp": "欠席", "romaji": "Kesseki", "sound": "absence.mp3" },
+      { "en": "Address (Speech)", "jp": "演説", "romaji": "Enzetsu", "sound": "address_speech.mp3" },
+      { "en": "Aims of Rotary", "jp": "Rotary no mokuteki", "romaji": "Rotary no mokuteki", "sound": "aims_of_rotary.mp3" },
+      { "en": "Annual convention", "jp": "年会", "romaji": "Nenkai", "sound": "annual_convention.mp3" },
+      { "en": "Appropriation", "jp": "支出", "romaji": "Shishutsu", "sound": "appropriation.mp3" },
+      { "en": "Association", "jp": "会、協会", "romaji": "Kai, Kyōkai", "sound": "association.mp3" },
+      { "en": "Attendance", "jp": "出席", "romaji": "Shusseki", "sound": "attendance.mp3" },
+      { "en": "Attendance rate", "jp": "出席率", "romaji": "Shusseki ritsu", "sound": "attendance_rate.mp3" }
+    ],
+    "B": [
+      { "en": "Balloting", "jp": "投票", "romaji": "Tōhyō", "sound": "balloting.mp3" },
+      { "en": "Brief talk", "jp": "簡単な話", "romaji": "Kantan na hanashi", "sound": "brief_talk.mp3" },
+      { "en": "Business session", "jp": "人会", "romaji": "Jin-kai", "sound": "business_session.mp3" }
+    ],
+    "C": [
+      { "en": "Chairman", "jp": "議長", "romaji": "Gichō", "sound": "chairman.mp3" },
+      { "en": "Civic activity", "jp": "都市活動", "romaji": "Toshi katsudō", "sound": "civic_activity.mp3" },
+      { "en": "Civic duty", "jp": "市民の務め", "romaji": "Shimin no tsutome", "sound": "civic_duty.mp3" },
+      { "en": "Commissioner", "jp": "理事", "romaji": "Riji", "sound": "commissioner.mp3" },
+      { "en": "Committee", "jp": "委員会", "romaji": "I-in-kai", "sound": "committee.mp3" },
+      { "en": "Committee meeting", "jp": "委員会議", "romaji": "I-in-kaigi", "sound": "committee_meeting.mp3" },
+      { "en": "Community", "jp": "社会", "romaji": "Shakai", "sound": "community.mp3" },
+      { "en": "Community work", "jp": "社会事業", "romaji": "Shakai-jigyō", "sound": "community_work.mp3" },
+      { "en": "Conference", "jp": "協議会、会議", "romaji": "Kyōgi-kai, Kaigi", "sound": "conference.mp3" },
+      { "en": "Confidence", "jp": "信用", "romaji": "Shinyō", "sound": "confidence.mp3" },
+      { "en": "Constitution", "jp": "憲法", "romaji": "Kenpō", "sound": "constitution.mp3" },
+      { "en": "Convention", "jp": "大会", "romaji": "Taikai", "sound": "convention.mp3" },
+      { "en": "Co-operation", "jp": "協力", "romaji": "Kyōryoku", "sound": "cooperation.mp3" }
+    ],
+    "D": [
+      { "en": "Delegate", "jp": "代表者", "romaji": "Daihyō sha", "sound": "delegate.mp3" },
+      { "en": "Development", "jp": "発達", "romaji": "Hattatsu", "sound": "development.mp3" },
+      { "en": "Discussion", "jp": "討論", "romaji": "Tōron", "sound": "discussion.mp3" },
+      { "en": "Duty", "jp": "義務", "romaji": "Gimu", "sound": "duty.mp3" }
+    ],
+    "E": [
+      { "en": "Efficiency", "jp": "能率", "romaji": "Nōritsu", "sound": "efficiency.mp3" },
+      { "en": "Election", "jp": "選挙", "romaji": "Senkyo", "sound": "election.mp3" },
+      { "en": "Entertainment", "jp": "もてなし", "romaji": "Motenashi", "sound": "entertainment.mp3" },
+      { "en": "Ethics", "jp": "道徳", "romaji": "Dōtoku", "sound": "ethics.mp3" },
+      { "en": "Exchange", "jp": "交換", "romaji": "Kōkan", "sound": "exchange.mp3" },
+      { "en": "Executive committee", "jp": "執行委員会", "romaji": "Jikkō-iin-kai", "sound": "executive_committee.mp3" },
+      { "en": "Executive session", "jp": "執行委員会議", "romaji": "Jikkō-iin-kaigi", "sound": "executive_session.mp3" }
+    ],
+    "F": [
+      { "en": "Fellowship", "jp": "交会", "romaji": "Kōkai", "sound": "fellowship.mp3" },
+      { "en": "Friend", "jp": "友達、友人", "romaji": "Tomodachi, Yūjin", "sound": "friend.mp3" },
+      { "en": "Fundamental", "jp": "根本の", "romaji": "Konpon no", "sound": "fundamental.mp3" }
+    ],
+    "G": [
+      { "en": "General session", "jp": "総会", "romaji": "Sō-kai", "sound": "general_session.mp3" },
+      { "en": "Good-will", "jp": "好意", "romaji": "Kōi", "sound": "good_will.mp3" }
+    ],
+    "H": [
+      { "en": "Humanity", "jp": "人道", "romaji": "Jindō", "sound": "humanity.mp3" }
+    ],
+    "I": [
+      { "en": "Idea", "jp": "思想", "romaji": "Shisō", "sound": "idea.mp3" },
+      { "en": "Ideals", "jp": "理想", "romaji": "Risō", "sound": "ideals.mp3" },
+      { "en": "Improvement", "jp": "改善", "romaji": "Kaizen", "sound": "improvement.mp3" },
+      { "en": "Influence", "jp": "勢力", "romaji": "Seiryoku", "sound": "influence.mp3" },
+      { "en": "Inspiration", "jp": "霊感", "romaji": "Reikan", "sound": "inspiration.mp3" },
+      { "en": "International character", "jp": "国際的性格", "romaji": "Kokusai-teki Seikaku", "sound": "international_character.mp3" },
+      { "en": "International organization", "jp": "国際的団体", "romaji": "Kokusai-teki dantai", "sound": "international_organization.mp3" },
+      { "en": "International peace", "jp": "世界的平和", "romaji": "Sekai-teki heiwa", "sound": "international_peace.mp3" }
+    ],
+    "J": [
+      { "en": "Justice", "jp": "正義", "romaji": "Seigi", "sound": "justice.mp3" }
+    ],
+    "K": [
+      { "en": "Keynote", "jp": "主眼", "romaji": "Shugan", "sound": "keynote.mp3" }
+    ],
+    "M": [
+      { "en": "Meeting", "jp": "集会", "romaji": "Shūkai", "sound": "meeting.mp3" },
+      { "en": "Members", "jp": "会員", "romaji": "Kai-in", "sound": "members.mp3" },
+      { "en": "Morality", "jp": "道徳", "romaji": "Dōtoku", "sound": "morality.mp3" },
+      { "en": "Music", "jp": "音楽", "romaji": "Ongaku", "sound": "music.mp3" },
+      { "en": "Mutual understanding", "jp": "相互の了解", "romaji": "Sōgo no ryōkai", "sound": "mutual_understanding.mp3" }
+    ],
+    "N": [
+      { "en": "Nation-wide", "jp": "全国の", "romaji": "Zenkoku no", "sound": "nation_wide.mp3" },
+      { "en": "Nomination", "jp": "指名、予選指名", "romaji": "Shimei, Yosen shimei", "sound": "nomination.mp3" }
+    ],
+    "O": [
+      { "en": "Object", "jp": "目的", "romaji": "Mokuteki", "sound": "object.mp3" },
+      { "en": "Obligation", "jp": "職務、責任", "romaji": "Shokumu, Sekinin", "sound": "obligation.mp3" },
+      { "en": "Obligatory", "jp": "義務的", "romaji": "Gimu-teki", "sound": "obligatory.mp3" },
+      { "en": "Officer", "jp": "役員", "romaji": "Yakuin", "sound": "officer.mp3" },
+      { "en": "Opportunity", "jp": "機会", "romaji": "Kikai", "sound": "opportunity.mp3" },
+      { "en": "Organization", "jp": "団体", "romaji": "Dantai", "sound": "organization.mp3" }
+    ],
+    "P": [
+      { "en": "Precept", "jp": "訓言、距離", "romaji": "Kingen, Kyōri", "sound": "precept.mp3" },
+      { "en": "Principle", "jp": "会長", "romaji": "Kaichō", "sound": "principle.mp3" },
+      { "en": "Problems", "jp": "問題", "romaji": "Mondai", "sound": "problems.mp3" },
+      { "en": "Procedure", "jp": "進行", "romaji": "Shinkō", "sound": "procedure.mp3" },
+      { "en": "Professional ethics", "jp": "職業道徳", "romaji": "Shokugyō Dōtoku", "sound": "professional_ethics.mp3" },
+      { "en": "Profit", "jp": "利益", "romaji": "Rieki", "sound": "profit.mp3" },
+      { "en": "Program", "jp": "プログラム", "romaji": "Puroguramu", "sound": "program.mp3" },
+      { "en": "Prominent", "jp": "有名な", "romaji": "Yūmei na", "sound": "prominent.mp3" },
+      { "en": "Propagation", "jp": "宣伝", "romaji": "Senden", "sound": "propagation.mp3" },
+      { "en": "Public life", "jp": "公職", "romaji": "Kō-shoku", "sound": "public_life.mp3" },
+      { "en": "Purpose", "jp": "目的", "romaji": "Mokuteki", "sound": "purpose.mp3" }
+    ],
+    "R": [
+      { "en": "Representatives", "jp": "代表者", "romaji": "Daihyō sha", "sound": "representatives.mp3" },
+      { "en": "Resolution", "jp": "決議", "romaji": "Ketsugi", "sound": "resolution.mp3" },
+      { "en": "Responsibility", "jp": "責任", "romaji": "Sekinin", "sound": "responsibility.mp3" },
+      { "en": "Right", "jp": "権利", "romaji": "Kenri", "sound": "right.mp3" },
+      { "en": "Rotary members", "jp": "Rotary no 会員", "romaji": "Rotary no kai-in", "sound": "rotary_members.mp3" }
+    ],
+    "S": [
+      { "en": "Second (t.v.)", "jp": "賛成", "romaji": "Sansei", "sound": "second.mp3" },
+      { "en": "Service", "jp": "奉仕（務め）", "romaji": "Hōshi (tsutome)", "sound": "service.mp3" },
+      { "en": "Session", "jp": "会", "romaji": "Kai", "sound": "session.mp3" },
+      { "en": "Session", "jp": "会議", "romaji": "Kaigi", "sound": "session_meeting.mp3" },
+      { "en": "Society", "jp": "社会", "romaji": "Shakai", "sound": "society.mp3" },
+      { "en": "Singing", "jp": "歌", "romaji": "Uta", "sound": "singing.mp3" },
+      { "en": "Song", "jp": "歌", "romaji": "Uta", "sound": "song.mp3" },
+      { "en": "Special session", "jp": "特別会", "romaji": "Tokubetsu-kai", "sound": "special_session.mp3" },
+      { "en": "Spirit", "jp": "精神", "romaji": "Seishin", "sound": "spirit.mp3" },
+      { "en": "Spokesman", "jp": "代表", "romaji": "Daihyō", "sound": "spokesman.mp3" },
+      { "en": "Square deal", "jp": "公平取引", "romaji": "Kōhei-torihiki", "sound": "square_deal.mp3" },
+      { "en": "Standard", "jp": "標準", "romaji": "Hyōjun", "sound": "standard.mp3" },
+      { "en": "Sympathy", "jp": "同情", "romaji": "Dōjō", "sound": "sympathy.mp3" }
+    ],
+    "T": [
+      { "en": "Theory", "jp": "理論", "romaji": "Riron", "sound": "theory.mp3" },
+      { "en": "Topics", "jp": "題目", "romaji": "Daimoku", "sound": "topics.mp3" }
+    ],
+    "U": [
+      { "en": "Understanding", "jp": "了解", "romaji": "Ryōkai", "sound": "understanding.mp3" },
+      { "en": "Universal concord", "jp": "世界の協調", "romaji": "Sekai no Kyōchō", "sound": "universal_concord.mp3" }
+    ],
+    "V": [
+      { "en": "Vision", "jp": "幻影", "romaji": "Gen-ei", "sound": "vision.mp3" }
+    ],
+    "W": [
+      { "en": "Welcome", "jp": "招待", "romaji": "Shōkyaku", "sound": "welcome.mp3" },
+      { "en": "Welcome speech", "jp": "歓迎", "romaji": "Kangei", "sound": "welcome_speech.mp3" },
+      { "en": "World-wide", "jp": "歓迎の演説", "romaji": "Kangei-no-Enzetsu", "sound": "world_wide.mp3" },
+      { "en": "World Fellowship", "jp": "世界的な協力", "romaji": "Sekai-teki Kyōryoku", "sound": "world_fellowship.mp3" }
+    ]
+  }
+}

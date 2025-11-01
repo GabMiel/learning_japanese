@@ -1,0 +1,17 @@
+{
+  "title": "Lesson: Interjectional Words Commonly Used",
+  "interjectional_words_commonly_used": [
+    { "en": "Well...", "jp": "あのね", "romaji": "Ano ne", "sound": "ano_ne.mp3" },
+    { "en": "Oh my!", "jp": "あら", "romaji": "Ara", "sound": "ara.mp3" },
+    { "en": "Surely", "jp": "だわ", "romaji": "Da wa", "sound": "da_wa.mp3" },
+    { "en": "Indeed", "jp": "だわよ", "romaji": "Da wa yo", "sound": "da_wa_yo.mp3" },
+    { "en": "Hmph", "jp": "ふん", "romaji": "Fun", "sound": "fun.mp3" },
+    { "en": "Yes", "jp": "は", "romaji": "Ha", "sound": "ha.mp3" },
+    { "en": "Oh dear", "jp": "まっ", "romaji": "Mah", "sound": "mah.mp3" },
+    { "en": "I see", "jp": "ね", "romaji": "Ne", "sound": "ne.mp3" },
+    { "en": "Oh!", "jp": "おや", "romaji": "Oya", "sound": "oya.mp3" },
+    { "en": "Okay", "jp": "うん", "romaji": "Un", "sound": "un.mp3" },
+    { "en": "Hey!", "jp": "や", "romaji": "Ya", "sound": "ya.mp3" },
+    { "en": "Emphasis / Attention", "jp": "よ", "romaji": "Yo", "sound": "yo.mp3" }
+  ]
+}

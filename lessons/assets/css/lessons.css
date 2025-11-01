@@ -493,3 +493,26 @@ header h1 {
     0 0 24px rgba(255, 60, 60, 0.4);
   font-weight: 700;
 }
+
+/* ===== Letter Label inside first card ===== */
+.letter-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 215, 0, 0.9);
+  color: #101820;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.6),
+              0 0 12px rgba(255, 215, 0, 0.4);
+  pointer-events: none;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+/* Make card relative for the label positioning */
+.card {
+  position: relative;
+}
