@@ -28,7 +28,6 @@
     { "en": "Swedish", "jp": "スエーデン", "romaji": "Sueiden", "sound": "swedish.mp3" },
     { "en": "Turkish", "jp": "トルコ", "romaji": "Toruko", "sound": "turkish.mp3" },
     { "en": "Swiss", "jp": "スイス", "romaji": "Suisu", "sound": "swiss.mp3" },
-    { "en": "U.S.A.", "jp": "米国（or アメリカ）", "romaji": "Beikoku (or Amerika)", "sound": "usa.mp3" },
 
     { "en": "Embassy", "jp": "大使館", "romaji": "Taishi-kan", "sound": "embassy.mp3" },
     { "en": "Legation", "jp": "公使館", "romaji": "Kōshi-kan", "sound": "legation.mp3" },

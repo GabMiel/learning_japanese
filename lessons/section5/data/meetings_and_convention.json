@@ -3,7 +3,7 @@
     "A": [
       { "en": "Absence", "jp": "欠席", "romaji": "Kesseki", "sound": "absence.mp3" },
       { "en": "Address (Speech)", "jp": "演説", "romaji": "Enzetsu", "sound": "address_speech.mp3" },
-      { "en": "Aims of Rotary", "jp": "Rotary no mokuteki", "romaji": "Rotary no mokuteki", "sound": "aims_of_rotary.mp3" },
+      { "en": "Aims of Rotary", "jp": "ロータリーの目的", "romaji": "Rotary no mokuteki", "sound": "aims_of_rotary.mp3" },
       { "en": "Annual convention", "jp": "年会", "romaji": "Nenkai", "sound": "annual_convention.mp3" },
       { "en": "Appropriation", "jp": "支出", "romaji": "Shishutsu", "sound": "appropriation.mp3" },
       { "en": "Association", "jp": "会、協会", "romaji": "Kai, Kyōkai", "sound": "association.mp3" },
@@ -110,7 +110,7 @@
       { "en": "Resolution", "jp": "決議", "romaji": "Ketsugi", "sound": "resolution.mp3" },
       { "en": "Responsibility", "jp": "責任", "romaji": "Sekinin", "sound": "responsibility.mp3" },
       { "en": "Right", "jp": "権利", "romaji": "Kenri", "sound": "right.mp3" },
-      { "en": "Rotary members", "jp": "Rotary no 会員", "romaji": "Rotary no kai-in", "sound": "rotary_members.mp3" }
+      { "en": "Rotary members", "jp": "ロータリーの会員", "romaji": "Rotary no kai-in", "sound": "rotary_members.mp3" }
     ],
     "S": [
       { "en": "Second (t.v.)", "jp": "賛成", "romaji": "Sansei", "sound": "second.mp3" },
