@@ -60,7 +60,7 @@
     { "en": "I think so", "jp": "そう思います", "romaji": "Sō omoimasu", "sound": "i_think_so_repeat.mp3" },
     { "en": "Do you think so?", "jp": "そう思いますか", "romaji": "Sō omoimasu ka", "sound": "do_you_think_so.mp3" },
     { "en": "I see", "jp": "なるほど", "romaji": "Naruhodo", "sound": "i_see.mp3" },
-    { "en": "Have you—?", "jp": "—がありますか", "romaji": "—ga arimasu ka", "sound": "have_you.mp3" },
+    { "en": "Have you—?", "jp": "—がありますか", "romaji": "ga arimasu ka", "sound": "have_you.mp3" },
     { "en": "Certainly", "jp": "もちろん", "romaji": "Mochiron", "sound": "certainly.mp3" },
     { "en": "Do you like—?", "jp": "—は（が）お好きですか", "romaji": "—wa (ga) osuki desu ka", "sound": "do_you_like.mp3" }
   ]
