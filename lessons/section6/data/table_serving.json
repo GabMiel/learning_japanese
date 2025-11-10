@@ -1,0 +1,33 @@
+{
+  "title": "Lesson: Table Serving",
+  "table_serving": [
+    { "en": "Back", "jp": "うしろ", "romaji": "Ushiro", "sound": "back.mp3" },
+    { "en": "Front", "jp": "まえに", "romaji": "Maeni", "sound": "front.mp3" },
+    { "en": "Left", "jp": "ひだり", "romaji": "Hidari", "sound": "left.mp3" },
+    { "en": "Right", "jp": "みぎ", "romaji": "Migi", "sound": "right.mp3" },
+    { "en": "Side", "jp": "よこす", "romaji": "Yokosu", "sound": "side.mp3" },
+    { "en": "To Accept", "jp": "うける", "romaji": "Ukeru", "sound": "to_accept.mp3" },
+    { "en": "To Bring In", "jp": "もってくる", "romaji": "Motte kuru", "sound": "to_bring_in.mp3" },
+    { "en": "To Call", "jp": "よぶ", "romaji": "Yobu", "sound": "to_call.mp3" },
+    { "en": "To Come", "jp": "くる", "romaji": "Kuru", "sound": "to_come.mp3" },
+    { "en": "To Eat", "jp": "たべる", "romaji": "Taberu", "sound": "to_eat.mp3" },
+    { "en": "To Enter", "jp": "はいる", "romaji": "Hairu", "sound": "to_enter.mp3" },
+    { "en": "To Face", "jp": "むかう", "romaji": "Mukau", "sound": "to_face.mp3" },
+    { "en": "To Go", "jp": "いく", "romaji": "Iku", "sound": "to_go.mp3" },
+    { "en": "To Pass", "jp": "さらをまわす", "romaji": "Sara o mawasu", "sound": "to_pass.mp3" },
+    { "en": "To Pour", "jp": "そそぐ", "romaji": "Sosogu", "sound": "to_pour.mp3" },
+    { "en": "To Refuse", "jp": "おことわる", "romaji": "Okotowaru", "sound": "to_refuse.mp3" },
+    { "en": "To Remove", "jp": "とる", "romaji": "Toru", "sound": "to_remove.mp3" },
+    { "en": "To Rise", "jp": "おきる", "romaji": "Okiru", "sound": "to_rise.mp3" },
+    { "en": "To Serve", "jp": "おきゅうりをする", "romaji": "Okyūri o suru", "sound": "to_serve.mp3" },
+    { "en": "To Set the Table", "jp": "テーブルをよういする", "romaji": "Tēburu o yōisuru", "sound": "to_set_the_table.mp3" },
+    { "en": "To Sit", "jp": "すわる", "romaji": "Suwaru", "sound": "to_sit.mp3" },
+    { "en": "To Spill", "jp": "こぼす", "romaji": "Kobosu", "sound": "to_spill.mp3" },
+    { "en": "To Stand", "jp": "たつ", "romaji": "Tatsu", "sound": "to_stand.mp3" },
+    { "en": "To Take", "jp": "こしかけさえる", "romaji": "Koshikake saeru", "sound": "to_take.mp3" },
+    { "en": "To Take Out", "jp": "だす", "romaji": "Dasu", "sound": "to_take_out.mp3" },
+    { "en": "To Wait", "jp": "まつ", "romaji": "Matsu", "sound": "to_wait.mp3" },
+    { "en": "To Wipe Up", "jp": "ふく", "romaji": "Fuku", "sound": "to_wipe_up.mp3" },
+    { "en": "White (gloves)", "jp": "しろい", "romaji": "Shiroi", "sound": "white_gloves.mp3" }
+  ]
+}

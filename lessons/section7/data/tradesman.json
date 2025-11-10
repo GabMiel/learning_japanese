@@ -1,0 +1,30 @@
+{
+  "title": "Lesson: Tradesman",
+  "tradesman": [
+    { "en": "Baker", "jp": "パンや", "romaji": "Panya", "sound": "baker.mp3" },
+    { "en": "Bean Curd Shop", "jp": "とうふや", "romaji": "Tōfuya", "sound": "bean_curd_shop.mp3" },
+    { "en": "Butcher", "jp": "にくや", "romaji": "Nikuya", "sound": "butcher.mp3" },
+    { "en": "Cake Shop", "jp": "ケーキや", "romaji": "Kēkiya", "sound": "cake_shop.mp3" },
+    { "en": "Camera Shop", "jp": "カメラや", "romaji": "Kameraya", "sound": "camera_shop.mp3" },
+    { "en": "Confectionery", "jp": "おかしや", "romaji": "Okashiya", "sound": "confectionery.mp3" },
+    { "en": "Dress Shop", "jp": "ふくや", "romaji": "Fukuya", "sound": "dress_shop.mp3" },
+    { "en": "Dry Cleaner", "jp": "クリーニングや", "romaji": "Kurīninguya", "sound": "dry_cleaner.mp3" },
+    { "en": "Electric Shop", "jp": "でんきや", "romaji": "Denkiya", "sound": "electric_shop.mp3" },
+    { "en": "Egg Shop", "jp": "たまごや", "romaji": "Tamagoya", "sound": "egg_shop.mp3" },
+    { "en": "Fish Shop", "jp": "さかなや", "romaji": "Sakanaya", "sound": "fish_shop.mp3" },
+    { "en": "Florist", "jp": "はなや", "romaji": "Hanaya", "sound": "florist.mp3" },
+    { "en": "Fruit Shop", "jp": "くだものや", "romaji": "Kudamonoya", "sound": "fruit_shop.mp3" },
+    { "en": "Fuel Shop", "jp": "すみやさん", "romaji": "Sumiyasan", "sound": "fuel_shop.mp3" },
+    { "en": "Gardener", "jp": "にわし", "romaji": "Niwashi", "sound": "gardener.mp3" },
+    { "en": "Green Grocer", "jp": "しゅくりょうひんや", "romaji": "Shukuryōhinya", "sound": "green_grocer.mp3" },
+    { "en": "Laundry", "jp": "せんたくや", "romaji": "Sentakuya", "sound": "laundry.mp3" },
+    { "en": "Milkman", "jp": "ぎゅうにゅうや", "romaji": "Gyūnyūya", "sound": "milkman.mp3" },
+    { "en": "Pet Shop", "jp": "とりやさん", "romaji": "Toriyasan", "sound": "pet_shop.mp3" },
+    { "en": "Poultry Shop", "jp": "とりにくや", "romaji": "Torinikuyа", "sound": "poultry_shop.mp3" },
+    { "en": "Radio Shop", "jp": "ラジオや", "romaji": "Rajioya", "sound": "radio_shop.mp3" },
+    { "en": "Rice Shop", "jp": "こめや", "romaji": "Komeya", "sound": "rice_shop.mp3" },
+    { "en": "Shoe Store", "jp": "くつや", "romaji": "Kutsuya", "sound": "shoe_store.mp3" },
+    { "en": "Toy Store", "jp": "おもちゃや", "romaji": "Omochaya", "sound": "toy_store.mp3" },
+    { "en": "Vegetable Shop", "jp": "やおや", "romaji": "Yaoya", "sound": "vegetable_shop.mp3" }
+  ]
+}

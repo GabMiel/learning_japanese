@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "stores"
     ],
     "Section 8 — Glossary": [
-      "glossary_of_conversational_vocabulary_and_short_phrases"
+      "glossary"
     ]
   };
 
