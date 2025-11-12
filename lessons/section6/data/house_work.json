@@ -45,7 +45,6 @@
     { "en": "To Wash", "jp": "あらう", "romaji": "Arau", "sound": "to_wash.mp3" },
     { "en": "To Wash Down", "jp": "みずをきる", "romaji": "Mizu o kiru", "sound": "to_wash_down.mp3" },
     { "en": "To Wipe", "jp": "ふく", "romaji": "Fuku", "sound": "to_wipe.mp3" },
-    { "en": "To Wipe Up", "jp": "ふく", "romaji": "Fuku", "sound": "to_wipe_up.mp3" },
     { "en": "To Shut", "jp": "しめろ", "romaji": "Shimero", "sound": "to_shut.mp3" },
     { "en": "To Sprinkle", "jp": "まく", "romaji": "Maku", "sound": "to_sprinkle.mp3" }
   ]
