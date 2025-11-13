@@ -49,6 +49,11 @@
       { "en": "Stationer", "jp": "文房具店", "romaji": "Bunbōguten", "sound": "stationer.mp3" },
       { "en": "Bookseller", "jp": "本屋 / 書店", "romaji": "Honya / Shoten", "sound": "bookseller.mp3" },
       { "en": "Bamboo Screen Store", "jp": "すだれ屋", "romaji": "Sudareya", "sound": "bamboo_screen_store.mp3" },
-      { "en": "Rug Store", "jp": "じゅうたん屋", "romaji": "Jūtanya", "sound": "rug_store.mp3" }
+      {
+          "en": "Rug Store",
+          "jp": "じゅうたん屋",
+          "romaji": "Jūtanya",
+          "sound": "rug.mp3"
+      }
     ]
   }
