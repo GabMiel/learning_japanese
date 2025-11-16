@@ -119,6 +119,13 @@
       { "en": "Is this yours?", "jp": "これはあなたのですか", "romaji": "Kore wa anata no desu ka", "sound": "is_this_yours.mp3" },
       { "en": "Is this your address?", "jp": "これはあなたの住所ですか", "romaji": "Kore wa anata no jūsho desu ka", "sound": "is_this_your_address.mp3" }
     ],
+    "J": [
+      { "en": "Just a minute", "jp": "ちょっと", "romaji": "Chotto", "sound": "just_a_minute.mp3" },
+      { "en": "Just like it", "jp": "そのとおり", "romaji": "Sono tōri", "sound": "just_like_it.mp3" },
+      { "en": "Just like this", "jp": "このとおり", "romaji": "Kono tōri", "sound": "just_like_this.mp3" },
+      { "en": "Just one month", "jp": "ちょうど一か月", "romaji": "Chōdo ikkagetsu", "sound": "just_one_month.mp3" },
+      { "en": "Just one week from today", "jp": "今日からちょうど一週間", "romaji": "Kyō kara chōdo isshūkan", "sound": "just_one_week_from_today.mp3" }
+    ],
 
     "K": [
       { "en": "Keep it", "jp": "とっておきなさい", "romaji": "Totte okinasai", "sound": "keep_it.mp3" },
@@ -157,7 +164,23 @@
       { "en": "New Year's Day", "jp": "元日", "romaji": "Ganjitsu", "sound": "new_years_day.mp3" },
       { "en": "News", "jp": "変わったこと or ニュース", "romaji": "Kawatta koto or nyūsu", "sound": "news.mp3" },
       { "en": "Newspaper", "jp": "新聞", "romaji": "Shimbun", "sound": "newspaper.mp3" },
-      { "en": "Next", "jp": "次", "romaji": "Tsugi", "sound": "next.mp3" }
+      { "en": "Next", "jp": "次", "romaji": "Tsugi", "sound": "next.mp3" },
+      { "en": "Next in program", "jp": "予定で次のもの", "romaji": "Yotei de tsugi no mono", "sound": "next_in_program.mp3" },
+      { "en": "Next to me", "jp": "私の次", "romaji": "Watakushi no tsugi", "sound": "next_to_me.mp3" },
+      { "en": "Next to that", "jp": "その次", "romaji": "Sono tsugi", "sound": "next_to_that.mp3" },
+      { "en": "Next to this", "jp": "この次", "romaji": "Kono tsugi", "sound": "next_to_this.mp3" },
+      { "en": "No", "jp": "いいえ", "romaji": "Iie", "sound": "no.mp3" },
+      { "en": "No more", "jp": "もういらない, たくさん", "romaji": "Mō iranai, Takusan", "sound": "no_more.mp3" },
+      { "en": "Not at all", "jp": "少しも", "romaji": "Sukoshi mo", "sound": "not_at_all.mp3" },
+      { "en": "Not now", "jp": "今でなく", "romaji": "Ima de naku", "sound": "not_now.mp3" },
+      { "en": "Not quite", "jp": "十分でない", "romaji": "Jūbun de nai", "sound": "not_quite.mp3" },
+      { "en": "Not that", "jp": "それでなく", "romaji": "Sore de naku", "sound": "not_that.mp3" },
+      { "en": "Not this", "jp": "これでなく", "romaji": "Kore de naku", "sound": "not_this.mp3" },
+      { "en": "Not this month", "jp": "今月でなく", "romaji": "Kongetsu de naku", "sound": "not_this_month.mp3" },
+      { "en": "Not this time", "jp": "今度でなく", "romaji": "Kondo de naku", "sound": "not_this_time.mp3" },
+      { "en": "Not this week", "jp": "今週でなく", "romaji": "Konshū de naku", "sound": "not_this_week.mp3" },
+      { "en": "Not today", "jp": "今日でなく", "romaji": "Kyō de naku", "sound": "not_today.mp3" },
+      { "en": "Not yet", "jp": "まだ", "romaji": "Mada", "sound": "not_yet.mp3" }
     ],
 
     "O": [
@@ -170,20 +193,42 @@
 
     "P": [
       { "en": "Please", "jp": "どうぞ", "romaji": "Dōzo", "sound": "please.mp3" },
-      { "en": "Please don't mention it", "jp": "どうぞ、そうおっしゃらないでください", "romaji": "Dōzo, sō ossharanai de kudasai", "sound": "please_dont_mention_it.mp3" }
+      { "en": "Please don't mention it", "jp": "どうぞ、そうおっしゃらないでください", "romaji": "Dōzo, sō ossharanai de kudasai", "sound": "please_dont_mention_it.mp3" },
+      { "en": "Please go slow", "jp": "ゆっくりと言ってください", "romaji": "Yukkuri to itte kudasai", "sound": "please_go_slow.mp3" },
+      { "en": "Please read this for me", "jp": "どうぞこれを読んでください", "romaji": "Dōzo kore o yonde kudasai", "sound": "please_read_this_for_me.mp3" },
+      { "en": "Please repeat", "jp": "もう一度", "romaji": "Mō ichido", "sound": "please_repeat.mp3" },
+      { "en": "Please speak slowly", "jp": "ゆっくり話してください", "romaji": "Yukkuri hanashite kudasai", "sound": "please_speak_slowly.mp3" },
+      { "en": "Put a postal stamp", "jp": "切手を貼りなさい", "romaji": "Kitte o hari nasai", "sound": "put_a_postal_stamp.mp3" },
+      { "en": "Put a stamp", "jp": "判を押しなさい", "romaji": "Han o oshi nasai", "sound": "put_a_stamp.mp3" },
+      { "en": "Put it here", "jp": "ここに置きなさい", "romaji": "Koko ni oki nasai", "sound": "put_it_here.mp3" },
+      { "en": "Put this in the post", "jp": "ポストへ入れてください", "romaji": "Posuto e irete kudasai", "sound": "put_this_in_the_post.mp3" }
     ],
 
     "S": [
       { "en": "Shall we go?", "jp": "行きますかね", "romaji": "Yukimasu ka ne", "sound": "shall_we_go.mp3" },
       { "en": "She has gone out", "jp": "彼女は出ました", "romaji": "Kanojo wa demashita", "sound": "she_has_gone_out.mp3" },
-      { "en": "She is an English lady", "jp": "彼女は英国夫人です", "romaji": "Kanojo wa Eikoku fujin desu", "sound": "she_is_an_english_lady.mp3" },
+      { "en": "She is an English lady", "jp": "彼女は英国婦人です", "romaji": "Kanojo wa Eikoku fujin desu", "sound": "she_is_an_english_lady.mp3" },
       { "en": "She is coming", "jp": "彼女は来ます", "romaji": "Kanojo wa kimasu", "sound": "she_is_coming.mp3" },
       { "en": "She is pretty", "jp": "彼女は美人です", "romaji": "Kanojo wa bijin desu", "sound": "she_is_pretty.mp3" },
-      { "en": "Shut the door", "jp": "戸をしめなさい", "romaji": "To o shime nasai", "sound": "shut_the_door.mp3" },
+      { "en": "Shut the door", "jp": "戸を閉めなさい", "romaji": "To o shime nasai", "sound": "shut_the_door.mp3" },
       { "en": "Sick, are you?", "jp": "病気ですか", "romaji": "Byōki desu ka", "sound": "sick_are_you.mp3" },
       { "en": "Sit down", "jp": "お座りなさい", "romaji": "Osuwari nasai", "sound": "sit_down.mp3" },
-      { "en": "Sit down by me", "jp": "私のそばにお座りなさい", "romaji": "Watashi no soba ni osuwari nasai", "sound": "sit_down_by_me.mp3" }
+      { "en": "Sit down by me", "jp": "私のそばへお座りなさい", "romaji": "Watakushi no soba e osuwari nasai", "sound": "sit_down_by_me.mp3" },
+      { "en": "So far as I know", "jp": "私の知ってる範囲では", "romaji": "Watakushi no shitteru han'i de wa", "sound": "so_far_as_i_know.mp3" },
+      { "en": "So far, so good", "jp": "まず、これまでは上等", "romaji": "Mazu, kore made wa jōtō", "sound": "so_far_so_good.mp3" },
+      { "en": "So that", "jp": "それだから", "romaji": "Sore dakara", "sound": "so_that.mp3" },
+      { "en": "Sooner or later", "jp": "遅かれ早かれ", "romaji": "Osokare hayakare", "sound": "sooner_or_later.mp3" },
+      { "en": "Speak louder please", "jp": "もう少し声を高く願います", "romaji": "Mō sukoshi koe o takaku negaimasu", "sound": "speak_louder_please.mp3" },
+      { "en": "Speak more clearly", "jp": "もう少しはっきりと願います", "romaji": "Mō sukoshi hakkiri to negaimasu", "sound": "speak_more_clearly.mp3" },
+      { "en": "Stop a moment", "jp": "ちょっと待ってください", "romaji": "Chotto matte kudasai", "sound": "stop_a_moment.mp3" },
+      { "en": "Stop at a barber", "jp": "床屋で止まってください", "romaji": "Tokoya de tomatte kudasai", "sound": "stop_at_a_barber.mp3" },
+      { "en": "Stop here", "jp": "ここで止まってください", "romaji": "Koko de tomatte kudasai", "sound": "stop_here.mp3" },
+      { "en": "Stop that noise", "jp": "あの音を止めてください", "romaji": "Ano oto o tomete kudasai", "sound": "stop_that_noise.mp3" },
+      { "en": "Stop that nonsense", "jp": "馬鹿をよせ", "romaji": "Baka o yose", "sound": "stop_that_nonsense.mp3" },
+      { "en": "Sure", "jp": "確かに", "romaji": "Tashika ni", "sound": "sure.mp3" },
+      { "en": "Sure enough", "jp": "大丈夫, 間違いない", "romaji": "Daijōbu, Machigai nai", "sound": "sure_enough.mp3" }
     ],
+
     "T": [
       { "en": "Take care", "jp": "気をつけなさい", "romaji": "Ki o tsuke nasai", "sound": "take_care.mp3" },
       { "en": "Take medicine", "jp": "薬を飲みなさい", "romaji": "Kusuri o nomi nasai", "sound": "take_medicine.mp3" },
@@ -191,22 +236,74 @@
       { "en": "Take me with you", "jp": "一緒に連れて行ってください", "romaji": "Issho ni tsurete itte kudasai", "sound": "take_me_with_you.mp3" },
       { "en": "Take more time", "jp": "ゆっくりなさい", "romaji": "Yukkuri nasai", "sound": "take_more_time.mp3" },
       { "en": "Take this", "jp": "これをお持ちなさい", "romaji": "Kore o omochi nasai", "sound": "take_this.mp3" },
-      { "en": "Tell me", "jp": "言ってください", "romaji": "Itte kudasai", "sound": "tell_me.mp3" },
-      { "en": "Tell him", "jp": "あの方へ言ってください", "romaji": "Ano-kata e itte kudasai", "sound": "tell_him.mp3" },
+      { "en": "Tell him", "jp": "あの方へ言ってください", "romaji": "Ano kata e itte kudasai", "sound": "tell_him.mp3" },
       { "en": "Tell him to come", "jp": "来るように言ってください", "romaji": "Kuru yō ni itte kudasai", "sound": "tell_him_to_come.mp3" },
       { "en": "Tell him to wait", "jp": "待てと言ってください", "romaji": "Mate to itte kudasai", "sound": "tell_him_to_wait.mp3" },
-      { "en": "Thank you", "jp": "ありがとう", "romaji": "Arigatō", "sound": "thank_you.mp3" }
+      { "en": "Tell me", "jp": "言ってください", "romaji": "Itte kudasai", "sound": "tell_me.mp3" },
+      { "en": "Thank you", "jp": "ありがとう", "romaji": "Arigatō", "sound": "thank_you.mp3" },
+      { "en": "That day", "jp": "あの（その）日", "romaji": "Ano (sono) hi", "sound": "that_day.mp3" },
+      { "en": "That house", "jp": "あの（その）うち", "romaji": "Ano (sono) uchi", "sound": "that_house.mp3" },
+      { "en": "That is not true", "jp": "間違っています", "romaji": "Machigatte imasu", "sound": "that_is_not_true.mp3" },
+      { "en": "That is true", "jp": "本当です", "romaji": "Hontō desu", "sound": "that_is_true.mp3" },
+      { "en": "That man", "jp": "あの（その）人", "romaji": "Ano (sono) hito", "sound": "that_man.mp3" },
+      { "en": "That place", "jp": "あそこ", "romaji": "Asoko", "sound": "that_place.mp3" },
+      { "en": "That's all wrong", "jp": "みなだめです", "romaji": "Mina dame desu", "sound": "thats_all_wrong.mp3" },
+      { "en": "That's enough", "jp": "もうたくさんです", "romaji": "Mō takusan desu", "sound": "thats_enough.mp3" },
+      { "en": "That's not enough", "jp": "まだいります", "romaji": "Mada irimasu", "sound": "thats_not_enough.mp3" },
+      { "en": "That's right", "jp": "よろしい", "romaji": "Yoroshii", "sound": "thats_right.mp3" },
+      { "en": "This boy", "jp": "この男の子", "romaji": "Kono otoko no ko", "sound": "this_boy.mp3" },
+      { "en": "This child", "jp": "この子供", "romaji": "Kono kodomo", "sound": "this_child.mp3" },
+      { "en": "This girl", "jp": "この女の子", "romaji": "Kono onna no ko", "sound": "this_girl.mp3" },
+      { "en": "This place", "jp": "ここ", "romaji": "Koko", "sound": "this_place.mp3" },
+      { "en": "To-day", "jp": "今日, こんにち", "romaji": "Kyō, Konnichi", "sound": "today.mp3" },
+      { "en": "To-morrow", "jp": "明日, 明後日", "romaji": "Asu, Myōnichi", "sound": "tomorrow.mp3" }
     ],
 
     "W": [
       { "en": "Wait for me", "jp": "待っていてください", "romaji": "Matte ite kudasai", "sound": "wait_for_me.mp3" },
       { "en": "Walk faster", "jp": "早く歩きなさい", "romaji": "Hayaku aruki nasai", "sound": "walk_faster.mp3" },
-      { "en": "We", "jp": "私たち or 我々", "romaji": "Watakushi-tachi or Wareware", "sound": "we.mp3" },
+      { "en": "We", "jp": "私たち, 我々", "romaji": "Watakushi-tachi, Ware-ware", "sound": "we.mp3" },
       { "en": "What?", "jp": "何ですか", "romaji": "Nan desu ka", "sound": "what.mp3" },
-      { "en": "What do you say?", "jp": "あれは何ですか", "romaji": "Are wa nan desu ka", "sound": "what_do_you_say.mp3" },
+      { "en": "What do you mean?", "jp": "何のことですか", "romaji": "Nan no koto desu ka", "sound": "what_do_you_mean.mp3" },
+      { "en": "What do you say?", "jp": "何と言いますか", "romaji": "Nan to ii masu ka", "sound": "what_do_you_say.mp3" },
+      { "en": "What is that?", "jp": "あれは何ですか", "romaji": "Are wa nan desu ka", "sound": "what_is_that.mp3" },
       { "en": "What is this?", "jp": "これは何ですか", "romaji": "Kore wa nan desu ka", "sound": "what_is_this.mp3" },
-      { "en": "What is your name?", "jp": "あなたの名前は何ですか", "romaji": "Anata no namae wa nan desu ka", "sound": "what_is_your_name.mp3" }
+      { "en": "What is your name?", "jp": "あなたの名は何と言いますか", "romaji": "Anata no na wa nan to ii masu ka", "sound": "what_is_your_name.mp3" },
+      { "en": "What is his name?", "jp": "あの方の名は何と言いますか", "romaji": "Anokata no na wa nan to ii masu ka", "sound": "what_is_his_name.mp3" },
+      { "en": "What time is it now?", "jp": "何時ですか", "romaji": "Nanji desu ka", "sound": "what_time_is_it_now.mp3" },
+      { "en": "Where", "jp": "どこ", "romaji": "Doko", "sound": "where.mp3" },
+      { "en": "Where is it?", "jp": "それはどこにありますか", "romaji": "Sore wa doko ni arimasu ka", "sound": "where_is_it.mp3" },
+      { "en": "Where is the American Embassy?", "jp": "米国大使館はどこですか", "romaji": "Beikoku taishikan wa doko desu ka", "sound": "where_is_the_american_embassy.mp3" },
+      { "en": "Where is the British Embassy?", "jp": "英国大使館はどこですか", "romaji": "Eikoku taishikan wa doko desu ka", "sound": "where_is_the_british_embassy.mp3" },
+      { "en": "Where is the French Embassy?", "jp": "フランス大使館はどこですか", "romaji": "Furansu taishikan wa doko desu ka", "sound": "where_is_the_french_embassy.mp3" },
+      { "en": "Where is the German Embassy?", "jp": "ドイツ大使館はどこですか", "romaji": "Doitsu taishikan wa doko desu ka", "sound": "where_is_the_german_embassy.mp3" },
+      { "en": "Where is the Italian Embassy?", "jp": "イタリア大使館はどこですか", "romaji": "Itaria taishikan wa doko desu ka", "sound": "where_is_the_italian_embassy.mp3" },
+      { "en": "Where are you taking me?", "jp": "どこへ連れて行くのですか", "romaji": "Doko e tsurete yuku no desu ka", "sound": "where_are_you_taking_me.mp3" },
+      { "en": "Where do you live?", "jp": "どこにお住まいですか", "romaji": "Doko ni osumai desu ka", "sound": "where_do_you_live.mp3" },
+      { "en": "Embassy", "jp": "大使館", "romaji": "Taishikan", "sound": "embassy.mp3" },
+      { "en": "Legation", "jp": "公使館", "romaji": "Kōshi-kan", "sound": "legation.mp3" },
+      { "en": "Consulate", "jp": "領事館", "romaji": "Ryōji-kan", "sound": "consulate.mp3" },
+      { "en": "What's the matter", "jp": "どうしたのですか", "romaji": "Dōshita no desu ka", "sound": "whats_the_matter.mp3" },
+      { "en": "Which", "jp": "どちら", "romaji": "Dochira", "sound": "which.mp3" },
+      { "en": "Which do you like?", "jp": "どちらがお好きですか", "romaji": "Dochira ga osuki desu ka", "sound": "which_do_you_like.mp3" },
+      { "en": "Which house is it?", "jp": "どちらの家ですか", "romaji": "Dochira no ie desu ka", "sound": "which_house_is_it.mp3" },
+      { "en": "Which is mine?", "jp": "どちらが私のですか", "romaji": "Dochira ga watakushi no desu ka", "sound": "which_is_mine.mp3" },
+      { "en": "Which is right?", "jp": "どちらが本当ですか", "romaji": "Dochira ga hontō desu ka", "sound": "which_is_right.mp3" },
+      { "en": "Which way do you go?", "jp": "どちらの道を行きますか", "romaji": "Dochira no michi o yukimasu ka", "sound": "which_way_do_you_go.mp3" },
+      { "en": "Who are you?", "jp": "どなたですか", "romaji": "Donata desu ka", "sound": "who_are_you.mp3" },
+      { "en": "Who is he?", "jp": "あの方はどなたですか", "romaji": "Ano kata wa donata desu ka", "sound": "who_is_he.mp3" },
+      { "en": "Whose is it?", "jp": "どなたのですか", "romaji": "Donata no desu ka", "sound": "whose_is_it.mp3" },
+      { "en": "Why?", "jp": "なぜ, どうして", "romaji": "Naze, Dōshite", "sound": "why.mp3" },
+      { "en": "Why can't you?", "jp": "なぜできませんか", "romaji": "Naze dekimasen ka", "sound": "why_cant_you.mp3" },
+      { "en": "Why can't you come?", "jp": "なぜ来られませんか", "romaji": "Naze koraremasen ka", "sound": "why_cant_you_come.mp3" },
+      { "en": "Why did you do that?", "jp": "なぜをしましたか", "romaji": "Naze o shimashita ka", "sound": "why_did_you_do_that.mp3" },
+      { "en": "Why is it so?", "jp": "なぜそうですか", "romaji": "Naze sō desu ka", "sound": "why_is_it_so.mp3" },
+      { "en": "Will it be all right?", "jp": "よろしいでしょうか", "romaji": "Yoroshii deshō ka", "sound": "will_it_be_all_right.mp3" },
+      { "en": "Will you do it for me?", "jp": "それをしてくださいますか", "romaji": "Sore o shite kudasaimasu ka", "sound": "will_you_do_it_for_me.mp3" },
+      { "en": "Will you give me?", "jp": "ください（な）", "romaji": "Kudasai(na)", "sound": "will_you_give_me.mp3" }
     ],
+
+
 
     "Y": [
       { "en": "You are right", "jp": "そうです", "romaji": "Sō desu", "sound": "you_are_right.mp3" },
