@@ -1,47 +1,17 @@
 {
-  "title": "Lesson: SU (Present Indicative)",
+  "title": "Lesson 19: SU (Present Indicative)",
   "su": [
-    {
-      "en": "I am an American.",
-      "jp": "私はアメリカ人です",
-      "romaji": "Watashi wa Amerika-jin desu",
-      "sound": "i_am_american.mp3"
-    },
-    {
-      "en": "He is an Englishman.",
-      "jp": "あの方は英国人です",
-      "romaji": "Ano-kata wa Eikoku-jin desu",
-      "sound": "he_is_englishman.mp3"
-    },
-    {
-      "en": "He is a Frenchman.",
-      "jp": "あの方はフランス人です",
-      "romaji": "Ano-kata wa Furansu-jin desu",
-      "sound": "he_is_frenchman.mp3"
-    },
-    {
-      "en": "They are teachers.",
-      "jp": "あの方たちは先生です",
-      "romaji": "Ano-kata tachi wa sensei desu",
-      "sound": "they_are_teachers.mp3"
-    },
-    {
-      "en": "This is porcelain.",
-      "jp": "これは陶器です",
-      "romaji": "Kore wa tōki desu",
-      "sound": "this_is_porcelain.mp3"
-    },
-    {
-      "en": "These are schools.",
-      "jp": "これは学校です",
-      "romaji": "Kore wa gakkō desu",
-      "sound": "these_are_schools.mp3"
-    },
-    {
-      "en": "Those are temples.",
-      "jp": "これは寺です",
-      "romaji": "Kore wa tera desu",
-      "sound": "those_are_temples.mp3"
-    }
+    { "en": "I am an American", "jp": "私はアメリカ人です", "romaji": "Watashi wa Amerika-jin desu", "sound": "i_am_american.mp3" },
+    { "en": "He is an Englishman", "jp": "あの方は英国人です", "romaji": "Ano kata wa Eikoku-jin desu", "sound": "he_is_englishman.mp3" },
+    { "en": "He is a Frenchman", "jp": "あの方はフランス人です", "romaji": "Ano kata wa Furansu-jin desu", "sound": "he_is_frenchman.mp3" },
+    { "en": "They are teachers", "jp": "あの方たちは先生です", "romaji": "Ano kata-tachi wa sensei desu", "sound": "they_are_teachers.mp3" },
+    { "en": "This is porcelain", "jp": "これは陶器です", "romaji": "Kore wa tōki desu", "sound": "this_is_porcelain.mp3" },
+    { "en": "These are schools", "jp": "これらは学校です", "romaji": "Korera wa gakkō desu", "sound": "these_are_schools.mp3" },
+    { "en": "Those are temples", "jp": "あれらは寺です", "romaji": "Arera wa tera desu", "sound": "those_are_temples.mp3" },
+
+    { "en": "I am not a student", "jp": "私は学生ではありません", "romaji": "Watashi wa gakusei dewa arimasen", "sound": "i_am_not_student.mp3" },
+    { "en": "This is not a book", "jp": "これは本ではありません", "romaji": "Kore wa hon dewa arimasen", "sound": "this_is_not_book.mp3" },
+    { "en": "That is a temple (casual)", "jp": "あれは寺だ", "romaji": "Are wa tera da", "sound": "that_is_temple_casual.mp3" },
+    { "en": "It is quiet (casual)", "jp": "それは静かだ", "romaji": "Sore wa shizuka da", "sound": "it_is_quiet_casual.mp3" }
   ]
 }

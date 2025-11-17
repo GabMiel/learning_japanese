@@ -1,5 +1,5 @@
 {
-  "title": "Lesson: Fruits",
+  "title": "Lesson 39: Fruits",
   "fruits": [
     { "en": "Apple", "jp": "りんご", "romaji": "Ringo", "sound": "apple.mp3" },
     { "en": "Apricots", "jp": "あんず", "romaji": "Anzu", "sound": "apricots.mp3" },

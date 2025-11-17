@@ -3,6 +3,14 @@
   "multiple_numbers": [
     { "en": "Double", "jp": "二倍", "romaji": "Ni-bai", "sound": "double.mp3" },
     { "en": "Treble", "jp": "三倍", "romaji": "San-bai", "sound": "treble.mp3" },
-    { "en": "Fourfold", "jp": "四倍", "romaji": "Shi-bai", "sound": "fourfold.mp3" }
+    { "en": "Fourfold", "jp": "四倍 / しばい", "romaji": "Yon-bai / Shi-bai", "sound": "fourfold.mp3" },
+    { "en": "Fivefold", "jp": "五倍", "romaji": "Go-bai", "sound": "fivefold.mp3" },
+    { "en": "Sixfold", "jp": "六倍", "romaji": "Roku-bai", "sound": "sixfold.mp3" },
+    { "en": "Sevenfold", "jp": "七倍 / しちばい", "romaji": "Nana-bai / Shichi-bai", "sound": "sevenfold.mp3" },
+    { "en": "Eightfold", "jp": "八倍", "romaji": "Hachi-bai", "sound": "eightfold.mp3" },
+    { "en": "Ninefold", "jp": "九倍 / くばい", "romaji": "Kyū-bai / Ku-bai", "sound": "ninefold.mp3" },
+    { "en": "Tenfold", "jp": "十倍", "romaji": "Jū-bai", "sound": "tenfold.mp3" },
+    { "en": "Hundredfold", "jp": "百倍", "romaji": "Hyaku-bai", "sound": "hundredfold.mp3" },
+    { "en": "Thousandfold", "jp": "千倍", "romaji": "Sen-bai", "sound": "thousandfold.mp3" }
   ]
 }

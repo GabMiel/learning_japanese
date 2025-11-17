@@ -1,13 +1,17 @@
 {
-  "title": "Lesson: Interrogatives",
-  "what_who_which_when_where_whose_whom": [
+  "title": "Lesson 16: Interrogatives",
+  "interrogatives": [
     { "en": "What", "jp": "なに", "romaji": "Nani", "sound": "what.mp3" },
     { "en": "Who", "jp": "だれ", "romaji": "Dare", "sound": "who.mp3" },
-    { "en": "Which", "jp": "どちら", "romaji": "Dochira", "sound": "which.mp3" },
+    { "en": "Which", "jp": "どれ / どちら", "romaji": "Dore / Dochira", "sound": "which2.mp3" },
     { "en": "When", "jp": "いつ", "romaji": "Itsu", "sound": "when.mp3" },
     { "en": "Where", "jp": "どこ", "romaji": "Doko", "sound": "where.mp3" },
     { "en": "Why", "jp": "なぜ", "romaji": "Naze", "sound": "why.mp3" },
-    { "en": "Whose", "jp": "だれの", "romaji": "Dare-no", "sound": "whose.mp3" },
-    { "en": "Whom", "jp": "だれを", "romaji": "Dare-o", "sound": "whom.mp3" }
+    { "en": "Whose", "jp": "だれの", "romaji": "Dare no", "sound": "whose.mp3" },
+    { "en": "Whom", "jp": "だれを / だれに", "romaji": "Dare o / Dare ni", "sound": "whom.mp3" },
+    { "en": "How", "jp": "どう", "romaji": "Dō", "sound": "how.mp3" },
+    { "en": "How many (countable)", "jp": "いくつ", "romaji": "Ikutsu", "sound": "how_many.mp3" },
+    { "en": "How much (uncountable)", "jp": "どのくらい", "romaji": "Dono kurai", "sound": "how_much.mp3" }
   ]
+
 }

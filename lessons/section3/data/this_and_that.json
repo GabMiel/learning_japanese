@@ -1,29 +1,21 @@
 {
-  "title": "Lesson: This and That",
+  "title": "Lesson 14: This and That",
   "this_and_that": [
-    {
-      "en": "This",
-      "jp": "これ",
-      "romaji": "Kore",
-      "sound": "this.mp3"
-    },
-    {
-      "en": "That",
-      "jp": "それ",
-      "romaji": "Sore",
-      "sound": "that.mp3"
-    },
-    {
-      "en": "Plural form of This",
-      "jp": "これら",
-      "romaji": "Kore-ra",
-      "sound": "plural_this.mp3"
-    },
-    {
-      "en": "Plural form of That",
-      "jp": "それら",
-      "romaji": "Sore-ra",
-      "sound": "plural_that.mp3"
-    }
+    { "en": "This", "jp": "これ", "romaji": "Kore", "sound": "this.mp3" },
+    { "en": "That (near you)", "jp": "それ", "romaji": "Sore", "sound": "that.mp3" },
+    { "en": "That (over there)", "jp": "あれ", "romaji": "Are", "sound": "that_over_there.mp3" },
+    { "en": "Which (thing)?", "jp": "どれ", "romaji": "Dore", "sound": "which_thing.mp3" },
+    { "en": "This (modifier)", "jp": "この", "romaji": "Kono", "sound": "this_modifier.mp3" },
+    { "en": "That (modifier, near you)", "jp": "その", "romaji": "Sono", "sound": "that_modifier.mp3" },
+    { "en": "That (modifier, over there)", "jp": "あの", "romaji": "Ano", "sound": "that_over_there_modifier.mp3" },
+    { "en": "Which (modifier)?", "jp": "どの", "romaji": "Dono", "sound": "which_modifier.mp3" },
+    { "en": "Here", "jp": "ここ", "romaji": "Koko", "sound": "here.mp3" },
+    { "en": "There (near you)", "jp": "そこ", "romaji": "Soko", "sound": "there.mp3" },
+    { "en": "Over there", "jp": "あそこ", "romaji": "Asoko", "sound": "over_there.mp3" },
+    { "en": "Where?", "jp": "どこ", "romaji": "Doko", "sound": "where.mp3" },
+    { "en": "Plural form of This", "jp": "これら", "romaji": "Kore-ra", "sound": "plural_this.mp3" },
+    { "en": "Plural form of That", "jp": "それら", "romaji": "Sore-ra", "sound": "plural_that.mp3" },
+    { "en": "Plural form of That (over there)", "jp": "あれら", "romaji": "Are-ra", "sound": "plural_that_over_there.mp3" },
+    { "en": "Plural form of Which", "jp": "どれら", "romaji": "Dore-ra", "sound": "plural_which.mp3" }
   ]
 }

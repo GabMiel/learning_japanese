@@ -1,5 +1,5 @@
 {
-  "title": "Lesson: Stores",
+  "title": "Lesson 46: Stores",
   "stores":  [
       { "en": "Department Store", "jp": "百貨店 / デパート", "romaji": "Hyakkaten / Depāto", "sound": "department_store.mp3" },
       { "en": "Market", "jp": "市場 / マーケット", "romaji": "Ichiba / Māketto", "sound": "market.mp3" },

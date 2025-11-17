@@ -1,29 +1,16 @@
 {
-  "title": "Lesson: Past and Present",
+  "title": "Lesson 21: Past and Present",
   "past_and_present": [
-    {
-      "en": "Do you go?",
-      "jp": "あなたは行きますか",
-      "romaji": "Anata wa yuki masu ka",
-      "sound": "do_you_go.mp3"
-    },
-    {
-      "en": "Did you go?",
-      "jp": "あなたは行きましたか",
-      "romaji": "Anata wa yuki mashita ka",
-      "sound": "did_you_go.mp3"
-    },
-    {
-      "en": "Do you understand?",
-      "jp": "あなたは分かりますか",
-      "romaji": "Anata wa wakari masu ka",
-      "sound": "do_you_understand.mp3"
-    },
-    {
-      "en": "Did you understand?",
-      "jp": "あなたは分かりましたか",
-      "romaji": "Anata wa wakari mashita ka",
-      "sound": "did_you_understand.mp3"
-    }
+    { "en": "Do you go", "jp": "あなたは行きますか", "romaji": "Anata wa ikimasu ka", "sound": "do_you_go.mp3" },
+    { "en": "Did you go", "jp": "あなたは行きましたか", "romaji": "Anata wa ikimashita ka", "sound": "did_you_go.mp3" },
+    { "en": "Do you understand", "jp": "あなたは分かりますか", "romaji": "Anata wa wakarimasu ka", "sound": "do_you_understand.mp3" },
+    { "en": "Did you understand", "jp": "あなたは分かりましたか", "romaji": "Anata wa wakarimashita ka", "sound": "did_you_understand.mp3" },
+
+    { "en": "Do you eat", "jp": "あなたは食べますか", "romaji": "Anata wa tabemasu ka", "sound": "do_you_eat.mp3" },
+    { "en": "Did you eat", "jp": "あなたは食べましたか", "romaji": "Anata wa tabemashita ka", "sound": "did_you_eat.mp3" },
+    { "en": "Do you see", "jp": "あなたは見ますか", "romaji": "Anata wa mimasu ka", "sound": "do_you_see.mp3" },
+    { "en": "Did you see", "jp": "あなたは見ましたか", "romaji": "Anata wa mimashita ka", "sound": "did_you_see.mp3" },
+    { "en": "Do you write", "jp": "あなたは書きますか", "romaji": "Anata wa kakimasu ka", "sound": "do_you_write.mp3" },
+    { "en": "Did you write", "jp": "あなたは書きましたか", "romaji": "Anata wa kakimashita ka", "sound": "did_you_write.mp3" }
   ]
 }

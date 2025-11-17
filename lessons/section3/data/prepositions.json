@@ -1,95 +1,20 @@
 {
-  "title": "Lesson: Prepositions",
+  "title": "Lesson 13: Prepositions",
   "prepositions": [
-    {
-      "en": "At the Imperial Hotel.",
-      "jp": "帝国ホテルで or に",
-      "romaji": "Teikoku Hotel de or ni",
-      "sound": "at_imperial_hotel.mp3"
-    },
-    {
-      "en": "I will meet you at the Imperial Hotel.",
-      "jp": "帝国ホテルで会います",
-      "romaji": "Teikoku Hotel de ai masu",
-      "sound": "meet_at_imperial_hotel.mp3"
-    },
-    {
-      "en": "I am at the Imperial Hotel.",
-      "jp": "帝国ホテルにいます",
-      "romaji": "Teikoku Hotel ni imasu",
-      "sound": "i_am_at_imperial_hotel.mp3"
-    },
-    {
-      "en": "I will stay in Tokyo.",
-      "jp": "東京に泊まりましょう",
-      "romaji": "Tokyo ni tomari ma shō",
-      "sound": "stay_in_tokyo.mp3"
-    },
-    {
-      "en": "I will pay you on Monday.",
-      "jp": "月曜に払います",
-      "romaji": "Getsuyō ni harai ma shō",
-      "sound": "pay_on_monday.mp3"
-    },
-    {
-      "en": "I shall go to Nikkō.",
-      "jp": "日光へ行きましょう",
-      "romaji": "Nikkō e yuki mashō",
-      "sound": "go_to_nikko.mp3"
-    },
-    {
-      "en": "I shall return from Osaka.",
-      "jp": "大阪から帰ります",
-      "romaji": "Osaka kara kaeri mashō",
-      "sound": "return_from_osaka.mp3"
-    },
-    {
-      "en": "I shall return by Tuesday.",
-      "jp": "火曜日に帰ります",
-      "romaji": "Kayōbi ni kaeri mashō",
-      "sound": "return_by_tuesday.mp3"
-    },
-    {
-      "en": "I shall return on the train.",
-      "jp": "汽車で帰ります",
-      "romaji": "Kisha de kaeri mashō",
-      "sound": "return_on_train.mp3"
-    },
-    {
-      "en": "I shall send it by mail.",
-      "jp": "郵便で送ります",
-      "romaji": "Yūbin de okuri mashō",
-      "sound": "send_by_mail.mp3"
-    },
-    {
-      "en": "I shall return before five.",
-      "jp": "五時前に帰ります",
-      "romaji": "Goji mae ni kaeri masu",
-      "sound": "return_before_five.mp3"
-    },
-    {
-      "en": "I wrote before departing.",
-      "jp": "出発前に書いた",
-      "romaji": "Shuppatsu mae ni kaita",
-      "sound": "wrote_before_departing.mp3"
-    },
-    {
-      "en": "Wait till tomorrow.",
-      "jp": "明日まで待ってください",
-      "romaji": "Asu made matte kudasai",
-      "sound": "wait_till_tomorrow.mp3"
-    },
-    {
-      "en": "Do it for me.",
-      "jp": "私にしてください",
-      "romaji": "Watakushi ni shite kudasai",
-      "sound": "do_it_for_me.mp3"
-    },
-    {
-      "en": "I buy this for you.",
-      "jp": "あなたのためにこれを買います",
-      "romaji": "Anata no tame ni kore o kai masu",
-      "sound": "buy_for_you.mp3"
-    }
+    { "en": "At the Imperial Hotel", "jp": "帝国ホテルで or に", "romaji": "Teikoku Hotel de or ni", "sound": "at_imperial_hotel.mp3" },
+    { "en": "I will meet you at the Imperial Hotel", "jp": "帝国ホテルで会います", "romaji": "Teikoku Hotel de aimasu", "sound": "meet_at_imperial_hotel.mp3" },
+    { "en": "I am at the Imperial Hotel", "jp": "帝国ホテルにいます", "romaji": "Teikoku Hotel ni imasu", "sound": "i_am_at_imperial_hotel.mp3" },
+    { "en": "I will stay in Tokyo", "jp": "東京に泊まりましょう", "romaji": "Tokyo ni tomarimashō", "sound": "stay_in_tokyo.mp3" },
+    { "en": "I will pay you on Monday", "jp": "月曜に払います", "romaji": "Getsuyō ni haraimasu", "sound": "pay_on_monday.mp3" },
+    { "en": "I shall go to Nikkō", "jp": "日光へ行きましょう", "romaji": "Nikkō e ikimashō", "sound": "go_to_nikko.mp3" },
+    { "en": "I shall return from Osaka", "jp": "大阪から帰ります", "romaji": "Osaka kara kaerimasu", "sound": "return_from_osaka.mp3" },
+    { "en": "I shall return by Tuesday", "jp": "火曜日に帰ります", "romaji": "Kayōbi ni kaerimasu", "sound": "return_by_tuesday.mp3" },
+    { "en": "I shall return on the train", "jp": "汽車で帰ります", "romaji": "Kisha de kaerimasu", "sound": "return_on_train.mp3" },
+    { "en": "I shall send it by mail", "jp": "郵便で送ります", "romaji": "Yūbin de okurimasu", "sound": "send_by_mail.mp3" },
+    { "en": "I shall return before five", "jp": "五時前に帰ります", "romaji": "Goji mae ni kaerimasu", "sound": "return_before_five.mp3" },
+    { "en": "I wrote before departing", "jp": "出発前に書いた", "romaji": "Shuppatsu mae ni kaita", "sound": "wrote_before_departing.mp3" },
+    { "en": "Wait till tomorrow", "jp": "明日まで待ってください", "romaji": "Asu made matte kudasai", "sound": "wait_till_tomorrow.mp3" },
+    { "en": "Do it for me", "jp": "私にしてください", "romaji": "Watashi ni shite kudasai", "sound": "do_it_for_me.mp3" },
+    { "en": "I buy this for you", "jp": "あなたのためにこれを買います", "romaji": "Anata no tame ni kore o kaimasu", "sound": "buy_for_you.mp3" }
   ]
 }

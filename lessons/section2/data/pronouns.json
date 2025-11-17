@@ -1,9 +1,19 @@
 {
-  "title": "Lesson: Pronouns",
+  "title": "Lesson 12: Pronouns",
   "pronouns": [
-    { "en": "I", "jp": "私", "romaji": "Watakushi", "sound": "i.mp3" },
+    { "en": "I", "jp": "私 / わたくし", "romaji": "Watashi / Watakushi", "sound": "i.mp3" },
+    { "en": "I (casual)", "jp": "僕 / 俺", "romaji": "Boku / Ore", "sound": "i_casual.mp3" },
     { "en": "You", "jp": "あなた", "romaji": "Anata", "sound": "you.mp3" },
-    { "en": "He (or she)", "jp": "あの方", "romaji": "Ano-kata", "sound": "he_she.mp3" },
-    { "en": "It", "jp": "それ", "romaji": "Sore", "sound": "it.mp3" }
+    { "en": "You (casual)", "jp": "君 / お前", "romaji": "Kimi / Omae", "sound": "you_casual.mp3" },
+    { "en": "You (plural)", "jp": "あなたたち", "romaji": "Anatatachi", "sound": "you_plural.mp3" },
+    { "en": "He", "jp": "彼", "romaji": "Kare", "sound": "he.mp3" },
+    { "en": "She", "jp": "彼女", "romaji": "Kanojo", "sound": "she.mp3" },
+    { "en": "He/She (polite)", "jp": "あの方", "romaji": "Ano-kata", "sound": "he_she.mp3" },
+    { "en": "It", "jp": "それ", "romaji": "Sore", "sound": "it.mp3" },
+    { "en": "We", "jp": "私たち", "romaji": "Watashitachi", "sound": "we.mp3" },
+    { "en": "We (casual)", "jp": "僕たち / 俺たち", "romaji": "Bokutachi / Oretachi", "sound": "we_casual.mp3" },
+    { "en": "They (male)", "jp": "彼ら", "romaji": "Karera", "sound": "they_male.mp3" },
+    { "en": "They (female)", "jp": "彼女たち", "romaji": "Kanojotachi", "sound": "they_female.mp3" },
+    { "en": "Who", "jp": "誰", "romaji": "Dare", "sound": "who.mp3" }
   ]
 }

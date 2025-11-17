@@ -2,7 +2,17 @@
   "title": "Lesson 3: Fractions",
   "fractions": [
     { "en": "Half", "jp": "半分", "romaji": "Hanbun", "sound": "half.mp3" },
-    { "en": "Third", "jp": "三分の一", "romaji": "Sanbun no ichi", "sound": "third.mp3" },
-    { "en": "Quarter", "jp": "四分の一", "romaji": "Shibun no ichi", "sound": "quarter.mp3" }
+    { "en": "One third", "jp": "三分の一", "romaji": "Sanbun no ichi", "sound": "onethird.mp3" },
+    { "en": "One quarter", "jp": "四分の一", "romaji": "Yonbun no ichi", "sound": "onequarter.mp3" },
+    { "en": "One fifth", "jp": "五分の一", "romaji": "Gobun no ichi", "sound": "onefifth.mp3" },
+    { "en": "One sixth", "jp": "六分の一", "romaji": "Rokubun no ichi", "sound": "onesixth.mp3" },
+    { "en": "One seventh", "jp": "七分の一", "romaji": "Nanabun no ichi", "sound": "oneseventh.mp3" },
+    { "en": "One eighth", "jp": "八分の一", "romaji": "Hachibun no ichi", "sound": "oneeighth.mp3" },
+    { "en": "One ninth", "jp": "九分の一", "romaji": "Kyūbun no ichi", "sound": "oneninth.mp3" },
+    { "en": "One tenth", "jp": "十分の一", "romaji": "Jūbun no ichi", "sound": "onetenth.mp3" },
+    { "en": "Two thirds", "jp": "三分の二", "romaji": "Sanbun no ni", "sound": "twothirds.mp3" },
+    { "en": "Three quarters", "jp": "四分の三", "romaji": "Yonbun no san", "sound": "threequarters.mp3" },
+    { "en": "Three fifths", "jp": "五分の三", "romaji": "Gobun no san", "sound": "threefifths.mp3" },
+    { "en": "Seven tenths", "jp": "十分の七", "romaji": "Jūbun no nana", "sound": "seventenths.mp3" }
   ]
 }

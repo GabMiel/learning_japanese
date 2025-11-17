@@ -7,6 +7,20 @@
     { "en": "Iron", "jp": "鉄", "romaji": "Tetsu", "sound": "iron.mp3" },
     { "en": "Lead", "jp": "鉛", "romaji": "Namari", "sound": "lead.mp3" },
     { "en": "Steel", "jp": "鋼", "romaji": "Hagane", "sound": "steel.mp3" },
-    { "en": "Coal", "jp": "石炭", "romaji": "Sekitan", "sound": "coal.mp3" }
+    { "en": "Coal", "jp": "石炭", "romaji": "Sekitan", "sound": "coal.mp3" },
+    { "en": "Aluminum", "jp": "アルミニウム", "romaji": "Aruminiumu", "sound": "aluminum.mp3" },
+    { "en": "Zinc", "jp": "亜鉛", "romaji": "Aen", "sound": "zinc.mp3" },
+    { "en": "Tin", "jp": "スズ", "romaji": "Suzu", "sound": "tin.mp3" },
+    { "en": "Nickel", "jp": "ニッケル", "romaji": "Nikkeru", "sound": "nickel.mp3" },
+    { "en": "Platinum", "jp": "白金", "romaji": "Hakkin", "sound": "platinum.mp3" },
+    { "en": "Titanium", "jp": "チタン", "romaji": "Chitan", "sound": "titanium.mp3" },
+    { "en": "Chromium", "jp": "クロム", "romaji": "Kuromu", "sound": "chromium.mp3" },
+    { "en": "Mercury", "jp": "水銀", "romaji": "Suigin", "sound": "mercury.mp3" },
+    { "en": "Bronze", "jp": "青銅", "romaji": "Seidō", "sound": "bronze.mp3" },
+    { "en": "Brass", "jp": "真鍮", "romaji": "Shinchū", "sound": "brass.mp3" },
+    { "en": "Diamond", "jp": "ダイヤモンド", "romaji": "Daiyamondo", "sound": "diamond.mp3" },
+    { "en": "Graphite", "jp": "黒鉛", "romaji": "Kokuen", "sound": "graphite.mp3" },
+    { "en": "Quartz", "jp": "石英", "romaji": "Sekiei", "sound": "quartz.mp3" },
+    { "en": "Silicon", "jp": "ケイ素", "romaji": "Keiso", "sound": "silicon.mp3" }
   ]
 }

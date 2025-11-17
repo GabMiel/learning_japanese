@@ -3,9 +3,24 @@
   "ordinal_numbers": [
     { "en": "First", "jp": "第一", "romaji": "Dai-ichi", "sound": "first.mp3" },
     { "en": "Second", "jp": "第二", "romaji": "Dai-ni", "sound": "second.mp3" },
+    { "en": "Third", "jp": "第三", "romaji": "Dai-san", "sound": "third.mp3" },
+    { "en": "Fourth", "jp": "第四 / 第し", "romaji": "Dai-yon / Dai-shi", "sound": "fourth.mp3" },
     { "en": "Fifth", "jp": "第五", "romaji": "Dai-go", "sound": "fifth.mp3" },
+    { "en": "Sixth", "jp": "第六", "romaji": "Dai-roku", "sound": "sixth.mp3" },
+    { "en": "Seventh", "jp": "第七 / 第しち", "romaji": "Dai-nana / Dai-shichi", "sound": "seventh.mp3" },
     { "en": "Eighth", "jp": "第八", "romaji": "Dai-hachi", "sound": "eighth.mp3" },
+    { "en": "Ninth", "jp": "第九 / 第く", "romaji": "Dai-kyū / Dai-ku", "sound": "ninth.mp3" },
+    { "en": "Tenth", "jp": "第十", "romaji": "Dai-jū", "sound": "tenth.mp3" },
+    { "en": "Twentieth", "jp": "第二十", "romaji": "Dai-nijū", "sound": "twentieth.mp3" },
     { "en": "Twenty-second", "jp": "第二十二", "romaji": "Dai-ni-jū-ni", "sound": "twentysecond.mp3" },
-    { "en": "Hundredth", "jp": "第百", "romaji": "Dai-hyaku", "sound": "hundredth.mp3" }
+    { "en": "Thirtieth", "jp": "第三十", "romaji": "Dai-sanjū", "sound": "thirtieth.mp3" },
+    { "en": "Fortieth", "jp": "第四十 / 第しじゅう", "romaji": "Dai-yonjū / Dai-shijū", "sound": "fortieth.mp3" },
+    { "en": "Fiftieth", "jp": "第五十", "romaji": "Dai-gojū", "sound": "fiftieth.mp3" },
+    { "en": "Sixtieth", "jp": "第六十", "romaji": "Dai-rokujū", "sound": "sixtieth.mp3" },
+    { "en": "Seventieth", "jp": "第七十 / 第しちじゅう", "romaji": "Dai-nanajū / Dai-shichijū", "sound": "seventieth.mp3" },
+    { "en": "Eightieth", "jp": "第八十", "romaji": "Dai-hachijū", "sound": "eightieth.mp3" },
+    { "en": "Ninetieth", "jp": "第九十 / 第くじゅう", "romaji": "Dai-kyūjū / Dai-kujū", "sound": "ninetieth.mp3" },
+    { "en": "Hundredth", "jp": "第百", "romaji": "Dai-hyaku", "sound": "hundredth.mp3" },
+    { "en": "Thousandth", "jp": "第千", "romaji": "Dai-sen", "sound": "thousandth.mp3" }
   ]
 }

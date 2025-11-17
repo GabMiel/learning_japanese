@@ -1,53 +1,24 @@
 {
-  "title": "Lesson: Suffix in Subjective Case",
+  "title": "Lesson 15: Suffix in Subjective Case",
   "suffix_in_subjective_case": [
-    {
-      "en": "This is good.",
-      "jp": "これはよい",
-      "romaji": "Kore wa yoi",
-      "sound": "this_is_good.mp3"
-    },
-    {
-      "en": "This is beautiful.",
-      "jp": "これはきれい",
-      "romaji": "Kore wa kirei",
-      "sound": "this_is_beautiful.mp3"
-    },
-    {
-      "en": "This is delightful.",
-      "jp": "これはてっき",
-      "romaji": "Kore wa tekkī",
-      "sound": "this_is_delightful.mp3"
-    },
-    {
-      "en": "This is delicious.",
-      "jp": "これはうまい",
-      "romaji": "Kore wa umai",
-      "sound": "this_is_delicious.mp3"
-    },
-    {
-      "en": "This is cute.",
-      "jp": "これはかわらしい",
-      "romaji": "Kore wa kawarashii",
-      "sound": "this_is_cute.mp3"
-    },
-    {
-      "en": "That is bad.",
-      "jp": "それはわるい",
-      "romaji": "Sore wa warui",
-      "sound": "that_is_bad.mp3"
-    },
-    {
-      "en": "That is ugly.",
-      "jp": "それはきたない",
-      "romaji": "Sore wa kitanai",
-      "sound": "that_is_ugly.mp3"
-    },
-    {
-      "en": "That is horrible.",
-      "jp": "それはひどい",
-      "romaji": "Sore wa hidoi",
-      "sound": "that_is_horrible.mp3"
-    }
+    { "en": "This is good", "jp": "これはよい", "romaji": "Kore wa yoi", "sound": "this_is_good.mp3" },
+    { "en": "This is beautiful", "jp": "これはきれい", "romaji": "Kore wa kirei", "sound": "this_is_beautiful.mp3" },
+    { "en": "This is delightful", "jp": "これはすてき", "romaji": "Kore wa suteki", "sound": "this_is_delightful.mp3" },
+    { "en": "This is delicious", "jp": "これはうまい", "romaji": "Kore wa umai", "sound": "this_is_delicious.mp3" },
+    { "en": "This is cute", "jp": "これはかわいい", "romaji": "Kore wa kawaii", "sound": "this_is_cute.mp3" },
+    { "en": "That is bad", "jp": "それはわるい", "romaji": "Sore wa warui", "sound": "that_is_bad.mp3" },
+    { "en": "That is ugly", "jp": "それはきたない", "romaji": "Sore wa kitanai", "sound": "that_is_ugly.mp3" },
+    { "en": "That is horrible", "jp": "それはひどい", "romaji": "Sore wa hidoi", "sound": "that_is_horrible.mp3" },
+    { "en": "This is bad", "jp": "これはわるい", "romaji": "Kore wa warui", "sound": "this_is_bad.mp3" },
+    { "en": "This is dirty", "jp": "これはきたない", "romaji": "Kore wa kitanai", "sound": "this_is_dirty.mp3" },
+    { "en": "This is unpleasant", "jp": "これはいや", "romaji": "Kore wa iya", "sound": "this_is_unpleasant.mp3" },
+    { "en": "That is lovely", "jp": "それはすてき", "romaji": "Sore wa suteki", "sound": "that_is_lovely.mp3" },
+    { "en": "That is delicious", "jp": "それはうまい", "romaji": "Sore wa umai", "sound": "that_is_delicious.mp3" },
+    { "en": "That is cute", "jp": "それはかわいい", "romaji": "Sore wa kawaii", "sound": "that_is_cute.mp3" },
+    { "en": "This is very good", "jp": "これはとてもよい", "romaji": "Kore wa totemo yoi", "sound": "very_good.mp3" },
+    { "en": "This is extremely beautiful", "jp": "これはすごくきれい", "romaji": "Kore wa sugoku kirei", "sound": "extremely_beautiful.mp3" },
+    { "en": "This is absolutely delightful", "jp": "これは本当にすてき", "romaji": "Kore wa hontōni suteki", "sound": "absolutely_delightful.mp3" },
+    { "en": "That is incredibly horrible", "jp": "それはとてもひどい", "romaji": "Sore wa totemo hidoi", "sound": "incredibly_horrible.mp3" },
+    { "en": "That is very ugly", "jp": "それはとてもきたない", "romaji": "Sore wa totemo kitanai", "sound": "very_ugly.mp3" }
   ]
 }

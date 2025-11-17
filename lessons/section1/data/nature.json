@@ -9,6 +9,21 @@
     { "en": "Snow", "jp": "雪", "romaji": "Yuki", "sound": "snow.mp3" },
     { "en": "Cloud", "jp": "雲", "romaji": "Kumo", "sound": "cloud.mp3" },
     { "en": "Thunder", "jp": "雷", "romaji": "Kaminari", "sound": "thunder.mp3" },
-    { "en": "Lightning", "jp": "稲光", "romaji": "Inabikari", "sound": "lightning.mp3" }
+    { "en": "Lightning", "jp": "稲光", "romaji": "Inabikari", "sound": "lightning.mp3" },
+    { "en": "Sky", "jp": "空", "romaji": "Sora", "sound": "sky.mp3" },
+    { "en": "Wind", "jp": "風", "romaji": "Kaze", "sound": "wind.mp3" },
+    { "en": "Mountain", "jp": "山", "romaji": "Yama", "sound": "mountain.mp3" },
+    { "en": "Ocean", "jp": "海洋", "romaji": "Kaiyō", "sound": "ocean.mp3" },
+    { "en": "Sea", "jp": "海", "romaji": "Umi", "sound": "sea.mp3" },
+    { "en": "River", "jp": "川", "romaji": "Kawa", "sound": "river.mp3" },
+    { "en": "Lake", "jp": "湖", "romaji": "Mizuumi", "sound": "lake.mp3" },
+    { "en": "Forest", "jp": "森", "romaji": "Mori", "sound": "forest.mp3" },
+    { "en": "Tree", "jp": "木", "romaji": "Ki", "sound": "tree.mp3" },
+    { "en": "Flower", "jp": "花", "romaji": "Hana", "sound": "flower.mp3" },
+    { "en": "Leaf", "jp": "葉", "romaji": "Ha", "sound": "leaf.mp3" },
+    { "en": "Stone", "jp": "石", "romaji": "Ishi", "sound": "stone.mp3" },
+    { "en": "Sand", "jp": "砂", "romaji": "Suna", "sound": "sand.mp3" },
+    { "en": "Fire", "jp": "火", "romaji": "Hi", "sound": "fire.mp3" },
+    { "en": "Water", "jp": "水", "romaji": "Mizu", "sound": "water.mp3" }
   ]
 }

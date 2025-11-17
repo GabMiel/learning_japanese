@@ -1,35 +1,15 @@
 {
-  "title": "Lesson: TA (Past Indicative)",
+  "title": "Lesson 18: TA (Past Indicative)",
   "ta": [
-    {
-      "en": "Tokyo was Edo.",
-      "jp": "東京は江戸でした",
-      "romaji": "Tokyo wa Edo deshita",
-      "sound": "tokyo_was_edo.mp3"
-    },
-    {
-      "en": "It was pretty.",
-      "jp": "それはきれいでした",
-      "romaji": "Sore wa kirei deshita",
-      "sound": "it_was_pretty.mp3"
-    },
-    {
-      "en": "They were actors.",
-      "jp": "あの人たちは俳優でした",
-      "romaji": "Ano-hito-tachi wa haiyū deshita",
-      "sound": "they_were_actors.mp3"
-    },
-    {
-      "en": "He was a preacher.",
-      "jp": "あの方は牧師でした",
-      "romaji": "Ano-kata wa bokushi deshita",
-      "sound": "he_was_a_preacher.mp3"
-    },
-    {
-      "en": "She was a school girl.",
-      "jp": "あの方は学生でした",
-      "romaji": "Ano-kata wa gakusei deshita",
-      "sound": "she_was_schoolgirl.mp3"
-    }
+    { "en": "Tokyo was Edo", "jp": "東京は江戸でした", "romaji": "Tokyo wa Edo deshita", "sound": "tokyo_was_edo.mp3" },
+    { "en": "It was pretty", "jp": "それはきれいでした", "romaji": "Sore wa kirei deshita", "sound": "it_was_pretty.mp3" },
+    { "en": "They were actors", "jp": "あの人たちは俳優でした", "romaji": "Ano hito-tachi wa haiyū deshita", "sound": "they_were_actors.mp3" },
+    { "en": "He was a preacher", "jp": "あの方は牧師でした", "romaji": "Ano kata wa bokushi deshita", "sound": "he_was_a_preacher.mp3" },
+    { "en": "She was a schoolgirl", "jp": "あの方は学生でした", "romaji": "Ano kata wa gakusei deshita", "sound": "she_was_schoolgirl.mp3" },
+
+    { "en": "It was not pretty", "jp": "それはきれいではありませんでした", "romaji": "Sore wa kirei dewa arimasen deshita", "sound": "it_was_not_pretty.mp3" },
+    { "en": "He was not a teacher", "jp": "彼は先生ではありませんでした", "romaji": "Kare wa sensei dewa arimasen deshita", "sound": "he_was_not_a_teacher.mp3" },
+    { "en": "She was a student (casual)", "jp": "彼女は学生だった", "romaji": "Kanojo wa gakusei datta", "sound": "she_was_student_casual.mp3" },
+    { "en": "They were friends (casual)", "jp": "彼らは友達だった", "romaji": "Karera wa tomodachi datta", "sound": "they_were_friends_casual.mp3" }
   ]
 }
