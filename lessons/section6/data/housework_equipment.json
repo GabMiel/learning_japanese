@@ -4,11 +4,11 @@
     { "en": "Broom", "jp": "ほうき", "romaji": "Hōki", "sound": "broom.mp3" },
     { "en": "Bucket", "jp": "バケツ", "romaji": "Baketsu", "sound": "bucket.mp3" },
     { "en": "Brush", "jp": "ブラシ", "romaji": "Burashi", "sound": "brush.mp3" },
-    { "en": "Brush used for kitchen sink", "jp": "ながしようブラシ", "romaji": "Nagashi-yō burashi", "sound": "brush_used_for_kitchen_sink.mp3" },
+    { "en": "Brush used for kitchen sink", "jp": "流し用ブラシ", "romaji": "Nagashi-yō burashi", "sound": "brush_used_for_kitchen_sink.mp3" },
     { "en": "Duster", "jp": "はたき", "romaji": "Hataki", "sound": "duster.mp3" },
     { "en": "Floor Polish", "jp": "ゆかみがき", "romaji": "Yuka migaki", "sound": "floor_polish.mp3" },
     { "en": "Mop", "jp": "モップ", "romaji": "Moppu", "sound": "mop.mp3" },
-    { "en": "Powdered Soap", "jp": "かんすいせいせっけん", "romaji": "Kansuisei sekken", "sound": "powdered_soap.mp3" },
+    { "en": "Powdered Soap", "jp": "粉石けん", "romaji": "Kona sekken", "sound": "powdered_soap.mp3" },
     { "en": "Scouring Powder", "jp": "みがきこな", "romaji": "Migaki kona", "sound": "scouring_powder.mp3" },
     { "en": "Silver Polish", "jp": "しろみがき", "romaji": "Shiro migaki", "sound": "silver_polish.mp3" },
     { "en": "Soap", "jp": "せっけん", "romaji": "Sekken", "sound": "soap.mp3" }

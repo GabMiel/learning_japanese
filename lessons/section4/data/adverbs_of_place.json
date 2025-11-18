@@ -3,17 +3,17 @@
   "adverbs_of_place": [
     { "en": "Far", "jp": "遠く", "romaji": "Tōku", "sound": "far.mp3" },
     { "en": "Near", "jp": "近く", "romaji": "Chikaku", "sound": "near.mp3" },
-    { "en": "Out", "jp": "外へ（or に）", "romaji": "Soto-e (or ni)", "sound": "out.mp3" },
-    { "en": "In", "jp": "内へ（or に）", "romaji": "Uchi-e (or ni)", "sound": "in.mp3" },
-    { "en": "Forth", "jp": "前へ（or に）", "romaji": "Mae-e (or ni)", "sound": "forth.mp3" },
-    { "en": "Back", "jp": "後へ（or に）", "romaji": "Ato-e (or ni)", "sound": "back.mp3" },
-    { "en": "Away", "jp": "あちらへ（or に）", "romaji": "Achira-e (or ni)", "sound": "away.mp3" },
-    { "en": "Aside", "jp": "そばへ（or に）", "romaji": "Soba-e (or ni)", "sound": "aside.mp3" },
-    { "en": "Apart", "jp": "別に", "romaji": "Betsu-ni", "sound": "apart.mp3" },
-    { "en": "Together", "jp": "一緒に", "romaji": "Issho-ni", "sound": "together.mp3" },
-    { "en": "Up", "jp": "上へ（or に）", "romaji": "Ue-e (or ni)", "sound": "up.mp3" },
-    { "en": "Down", "jp": "下へ（or に）", "romaji": "Shita-e (or ni)", "sound": "down.mp3" },
-    { "en": "Above", "jp": "上へ（or に）", "romaji": "Ue-e (or ni)", "sound": "above.mp3" },
-    { "en": "Below", "jp": "下へ（or に）", "romaji": "Shita-e (or ni)", "sound": "below.mp3" }
+    { "en": "Out", "jp": "外へ / 外に", "romaji": "Soto e / Soto ni", "sound": "out.mp3" },
+    { "en": "In", "jp": "内へ / 内に", "romaji": "Uchi e / Uchi ni", "sound": "in.mp3" },
+    { "en": "Forth", "jp": "前へ / 前に", "romaji": "Mae e / Mae ni", "sound": "forth.mp3" },
+    { "en": "Back", "jp": "後へ / 後に", "romaji": "Ato e / Ato ni", "sound": "back.mp3" },
+    { "en": "Away", "jp": "あちらへ / あちらに", "romaji": "Achira e / Achira ni", "sound": "away.mp3" },
+    { "en": "Aside", "jp": "そばへ / そばに", "romaji": "Soba e / Soba ni", "sound": "aside.mp3" },
+    { "en": "Apart", "jp": "別に", "romaji": "Betsu ni", "sound": "apart.mp3" },
+    { "en": "Together", "jp": "一緒に", "romaji": "Issho ni", "sound": "together.mp3" },
+    { "en": "Up", "jp": "上へ / 上に", "romaji": "Ue e / Ue ni", "sound": "up.mp3" },
+    { "en": "Down", "jp": "下へ / 下に", "romaji": "Shita e / Shita ni", "sound": "down.mp3" },
+    { "en": "Above", "jp": "上に", "romaji": "Ue ni", "sound": "above.mp3" },
+    { "en": "Below", "jp": "下に", "romaji": "Shita ni", "sound": "below.mp3" }
   ]
 }

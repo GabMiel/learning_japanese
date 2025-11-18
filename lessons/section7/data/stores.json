@@ -2,8 +2,8 @@
   "title": "Lesson 46: Stores",
   "stores":  [
       { "en": "Department Store", "jp": "百貨店 / デパート", "romaji": "Hyakkaten / Depāto", "sound": "department_store.mp3" },
-      { "en": "Market", "jp": "市場 / マーケット", "romaji": "Ichiba / Māketto", "sound": "market.mp3" },
-      { "en": "Dry Goods Store (Draper)", "jp": "呉服屋", "romaji": "Gofukuya", "sound": "dry_goods_store.mp3" },
+      { "en": "Market (everyday)", "jp": "市場", "romaji": "Ichiba", "sound": "market_ichiba.mp3" },
+      { "en": "Market (economic)", "jp": "市場", "romaji": "Shijō", "sound": "market_shijo.mp3" },      { "en": "Dry Goods Store (Draper)", "jp": "呉服屋", "romaji": "Gofukuya", "sound": "dry_goods_store.mp3" },
       { "en": "Notions Store", "jp": "小間物屋", "romaji": "Komamonoya", "sound": "notions_store.mp3" },
       { "en": "Thread Store", "jp": "糸屋", "romaji": "Itoya", "sound": "thread_store.mp3" },
       { "en": "Toilet Article Store (Cosmetics)", "jp": "化粧品店", "romaji": "Keshōhinten", "sound": "toilet_article_store.mp3" },
@@ -13,7 +13,7 @@
       { "en": "Watch Store", "jp": "時計屋", "romaji": "Tokeiya", "sound": "watch_store.mp3" },
       { "en": "Watch and Clock Store", "jp": "時計宝石店", "romaji": "Tokei Housekiten", "sound": "watch_and_clock_store.mp3" },
       { "en": "Tobacco Store", "jp": "たばこ屋", "romaji": "Tabakoya", "sound": "tobacco_store.mp3" },
-      { "en": "Dispensary / Drugstore", "jp": "薬屋", "romaji": "Kusuriya", "sound": "drugstore.mp3" },
+      { "en": "Dispensary / Drugstore", "jp": "薬屋 / ドラッグストア", "romaji": "Kusuriya / Doraggusutoa", "sound": "drugstore.mp3" },
       { "en": "Pickled Foods Shop", "jp": "漬物屋", "romaji": "Tsukemono-ya", "sound": "pickled_foods_shop.mp3" },
       { "en": "Ice Cream Store", "jp": "アイスクリーム屋", "romaji": "Aisukurīmuya", "sound": "ice_cream_store.mp3" },
       { "en": "China Store (Porcelain/Pottery)", "jp": "陶器店", "romaji": "Tōkiten", "sound": "china_store.mp3" },
@@ -45,15 +45,10 @@
       { "en": "Photo Supply Store", "jp": "写真用品店", "romaji": "Shashin yōhinten", "sound": "photo_supply_store.mp3" },
       { "en": "Postcard Store", "jp": "絵葉書屋", "romaji": "Ehagakiya", "sound": "postcard_store.mp3" },
       { "en": "Household Supply Store", "jp": "家庭用品店", "romaji": "Katei yōhinten", "sound": "household_supply_store.mp3" },
-      { "en": "Hair Store (wig/hair goods)", "jp": "かつら・髪飾り店", "romaji": "Katsura / Kamikazari ten", "sound": "hair_store.mp3" },
+      { "en": "Hair Store (wig/hair goods)", "jp": "かつら店 / 髪飾り店", "romaji": "Katsura ten / Kamikazari ten", "sound": "hair_store.mp3" },
       { "en": "Stationer", "jp": "文房具店", "romaji": "Bunbōguten", "sound": "stationer.mp3" },
       { "en": "Bookseller", "jp": "本屋 / 書店", "romaji": "Honya / Shoten", "sound": "bookseller.mp3" },
       { "en": "Bamboo Screen Store", "jp": "すだれ屋", "romaji": "Sudareya", "sound": "bamboo_screen_store.mp3" },
-      {
-          "en": "Rug Store",
-          "jp": "じゅうたん屋",
-          "romaji": "Jūtanya",
-          "sound": "rug.mp3"
-      }
-    ]
+      { "en": "Rug Store", "jp": "じゅうたん屋", "romaji": "Jūtanya", "sound": "rug_store.mp3" }
+  ]
   }

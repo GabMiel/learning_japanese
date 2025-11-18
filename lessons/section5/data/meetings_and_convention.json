@@ -7,7 +7,7 @@
       { "en": "Aims of Rotary", "jp": "ロータリーの目的", "romaji": "Rotary no mokuteki", "sound": "aims_of_rotary.mp3" },
       { "en": "Annual convention", "jp": "年会", "romaji": "Nenkai", "sound": "annual_convention.mp3" },
       { "en": "Appropriation", "jp": "支出", "romaji": "Shishutsu", "sound": "appropriation.mp3" },
-      { "en": "Association", "jp": "会、協会", "romaji": "Kai, Kyōkai", "sound": "association.mp3" },
+      { "en": "Association", "jp": "会 / 協会", "romaji": "Kai / Kyōkai", "sound": "association.mp3" },
       { "en": "Attendance", "jp": "出席", "romaji": "Shusseki", "sound": "attendance.mp3" },
       { "en": "Attendance rate", "jp": "出席率", "romaji": "Shusseki ritsu", "sound": "attendance_rate.mp3" }
     ],
@@ -25,7 +25,7 @@
       { "en": "Committee meeting", "jp": "委員会議", "romaji": "I-in-kaigi", "sound": "committee_meeting.mp3" },
       { "en": "Community", "jp": "社会", "romaji": "Shakai", "sound": "community.mp3" },
       { "en": "Community work", "jp": "社会事業", "romaji": "Shakai-jigyō", "sound": "community_work.mp3" },
-      { "en": "Conference", "jp": "協議会、会議", "romaji": "Kyōgi-kai, Kaigi", "sound": "conference.mp3" },
+      { "en": "Conference", "jp": "協議会 / 会議", "romaji": "Kyōgi-kai / Kaigi", "sound": "conference.mp3" },
       { "en": "Confidence", "jp": "信用", "romaji": "Shinyō", "sound": "confidence.mp3" },
       { "en": "Constitution", "jp": "憲法", "romaji": "Kenpō", "sound": "constitution.mp3" },
       { "en": "Convention", "jp": "大会", "romaji": "Taikai", "sound": "convention.mp3" },
@@ -48,7 +48,7 @@
     ],
     "F": [
       { "en": "Fellowship", "jp": "交会", "romaji": "Kōkai", "sound": "fellowship.mp3" },
-      { "en": "Friend", "jp": "友達、友人", "romaji": "Tomodachi, Yūjin", "sound": "friend.mp3" },
+      { "en": "Friend", "jp": "友達 / 友人", "romaji": "Tomodachi / Yūjin", "sound": "friend.mp3" },
       { "en": "Fundamental", "jp": "根本の", "romaji": "Konpon no", "sound": "fundamental.mp3" }
     ],
     "G": [
@@ -69,7 +69,7 @@
       { "en": "International peace", "jp": "世界的平和", "romaji": "Sekai-teki heiwa", "sound": "international_peace.mp3" }
     ],
     "J": [
-      { "en": "Justice", "jp": "正義", "romaji": "Seigi", "sound": "justice.mp3" }
+      { "en": "Justice", "jp": "公正", "romaji": "Kosei", "sound": "justice.mp3" }
     ],
     "K": [
       { "en": "Keynote", "jp": "主眼", "romaji": "Shugan", "sound": "keynote.mp3" }
@@ -83,18 +83,18 @@
     ],
     "N": [
       { "en": "Nation-wide", "jp": "全国の", "romaji": "Zenkoku no", "sound": "nation_wide.mp3" },
-      { "en": "Nomination", "jp": "指名、予選指名", "romaji": "Shimei, Yosen shimei", "sound": "nomination.mp3" }
+      { "en": "Nomination", "jp": "指名 / 予選指名", "romaji": "Shimei / Yosen shimei", "sound": "nomination.mp3" }
     ],
     "O": [
       { "en": "Object", "jp": "目的", "romaji": "Mokuteki", "sound": "object.mp3" },
-      { "en": "Obligation", "jp": "職務、責任", "romaji": "Shokumu, Sekinin", "sound": "obligation.mp3" },
+      { "en": "Obligation", "jp": "職務 / 責任", "romaji": "Shokumu / Sekinin", "sound": "obligation.mp3" },
       { "en": "Obligatory", "jp": "義務的", "romaji": "Gimu-teki", "sound": "obligatory.mp3" },
       { "en": "Officer", "jp": "役員", "romaji": "Yakuin", "sound": "officer.mp3" },
       { "en": "Opportunity", "jp": "機会", "romaji": "Kikai", "sound": "opportunity.mp3" },
       { "en": "Organization", "jp": "団体", "romaji": "Dantai", "sound": "organization.mp3" }
     ],
     "P": [
-      { "en": "Precept", "jp": "訓言、距離", "romaji": "Kingen, Kyōri", "sound": "precept.mp3" },
+      { "en": "Precept", "jp": "教訓 / 戒め", "romaji": "Kyōkun / Imashime", "sound": "precept.mp3" },
       { "en": "Principle", "jp": "会長", "romaji": "Kaichō", "sound": "principle.mp3" },
       { "en": "Problems", "jp": "問題", "romaji": "Mondai", "sound": "problems.mp3" },
       { "en": "Procedure", "jp": "進行", "romaji": "Shinkō", "sound": "procedure.mp3" },
@@ -115,7 +115,7 @@
     ],
     "S": [
       { "en": "Second (t.v.)", "jp": "賛成", "romaji": "Sansei", "sound": "second.mp3" },
-      { "en": "Service", "jp": "奉仕（務め）", "romaji": "Hōshi (tsutome)", "sound": "service.mp3" },
+      { "en": "Service", "jp": "奉仕 / 務め", "romaji": "Hōshi / tsutome", "sound": "service.mp3" },
       { "en": "Session", "jp": "会", "romaji": "Kai", "sound": "session.mp3" },
       { "en": "Session", "jp": "会議", "romaji": "Kaigi", "sound": "session_meeting.mp3" },
       { "en": "Society", "jp": "社会", "romaji": "Shakai", "sound": "society.mp3" },
@@ -140,7 +140,7 @@
       { "en": "Vision", "jp": "幻影", "romaji": "Gen-ei", "sound": "vision.mp3" }
     ],
     "W": [
-      { "en": "Welcome", "jp": "招待", "romaji": "Shōkyaku", "sound": "welcome.mp3" },
+      { "en": "Welcome", "jp": "招待", "romaji": "Shōtai", "sound": "welcome.mp3" },
       { "en": "Welcome speech", "jp": "歓迎", "romaji": "Kangei", "sound": "welcome_speech.mp3" },
       { "en": "World-wide", "jp": "歓迎の演説", "romaji": "Kangei-no-Enzetsu", "sound": "world_wide.mp3" },
       { "en": "World Fellowship", "jp": "世界的な協力", "romaji": "Sekai-teki Kyōryoku", "sound": "world_fellowship.mp3" }

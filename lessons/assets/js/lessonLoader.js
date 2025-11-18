@@ -49,13 +49,14 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
 
+      const allowHtml = data.title === "Lesson 31: Position of Adverbs";
+
       // Determine if lesson data is nested (like letters)
       const nestedKey = Object.keys(data).find(
         k => typeof data[k] === "object" && !Array.isArray(data[k])
       );
 
       let lettersData = nestedKey ? data[nestedKey] : data;
-
       const letters = Object.keys(lettersData);
       if (letters.length === 0) {
         cardContainer.innerHTML = "<p>No data found.</p>";
@@ -75,8 +76,8 @@ document.addEventListener("DOMContentLoaded", () => {
           cardsHtml += `
             <div class="card" data-sound="${item.sound || ""}">
               ${idx === 0 && nestedKey ? `<div class="letter-label">${letter}</div>` : ""}
-              <h2>${escapeHtml(item.en || "")}</h2>
-              <div class="jp">${escapeHtml(item.jp || "")}</div>
+              <h2>${allowHtml ? item.en || "" : escapeHtml(item.en || "")}</h2>
+              <div class="jp">${allowHtml ? item.jp || "" : escapeHtml(item.jp || "")}</div>
               ${item.romaji ? `<div class="romaji">${escapeHtml(item.romaji)}</div>` : ""}
             </div>
           `;

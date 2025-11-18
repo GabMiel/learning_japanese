@@ -5,9 +5,25 @@
     { "en": "Readily", "jp": "造作なく", "romaji": "Zōsa naku", "sound": "readily.mp3" },
     { "en": "Well", "jp": "よく", "romaji": "Yoku", "sound": "well.mp3" },
     { "en": "Fast", "jp": "早く", "romaji": "Hayaku", "sound": "fast.mp3" },
-    { "en": "Slowly", "jp": "そろそろ or ゆっくり", "romaji": "Soro-soro or Yukkuri", "sound": "slowly.mp3" },
+    { "en": "Slowly", "jp": "そろそろ / ゆっくり", "romaji": "Soro-soro / Yukkuri", "sound": "slowly.mp3" },
     { "en": "Kindly", "jp": "親切に", "romaji": "Shinsetsu ni", "sound": "kindly.mp3" },
     { "en": "Fluently", "jp": "流暢に", "romaji": "Ryūchō ni", "sound": "fluently.mp3" },
-    { "en": "Quietly", "jp": "静かに", "romaji": "Shizuka ni", "sound": "quietly.mp3" }
+    { "en": "Quietly", "jp": "静かに", "romaji": "Shizuka ni", "sound": "quietly.mp3" },
+    { "en": "Deliberately", "jp": "わざと", "romaji": "Wazato", "sound": "deliberately.mp3" },
+    { "en": "Accidentally", "jp": "うっかり", "romaji": "Ukkari", "sound": "accidentally.mp3" },
+    { "en": "Carefully", "jp": "注意深く", "romaji": "Chūi bukaku", "sound": "carefully.mp3" },
+    { "en": "Naturally", "jp": "自然に", "romaji": "Shizen ni", "sound": "naturally.mp3" },
+    { "en": "Clearly", "jp": "はっきり", "romaji": "Hakkiri", "sound": "clearly.mp3" },
+    { "en": "Calmly", "jp": "落ち着いて", "romaji": "Ochitsuite", "sound": "calmly.mp3" },
+    { "en": "Eagerly", "jp": "熱心に", "romaji": "Nesshin ni", "sound": "eagerly.mp3" },
+    { "en": "Hastily", "jp": "あわてて", "romaji": "Awatete", "sound": "hastily.mp3" },
+    { "en": "Secretly", "jp": "こっそり", "romaji": "Kossori", "sound": "secretly.mp3" },
+    { "en": "Loudly", "jp": "大声で", "romaji": "Ōgoe de", "sound": "loudly.mp3" },
+    { "en": "Softly", "jp": "そっと", "romaji": "Sotto", "sound": "softly.mp3" },
+    { "en": "Smoothly", "jp": "順調に", "romaji": "Junchō ni", "sound": "smoothly.mp3" },
+    { "en": "Clumsily", "jp": "不器用に", "romaji": "Bukiyō ni", "sound": "clumsily.mp3" },
+    { "en": "Boldly", "jp": "大胆に", "romaji": "Daitan ni", "sound": "boldly.mp3" },
+    { "en": "Gently", "jp": "やさしく", "romaji": "Yasashiku", "sound": "gently.mp3" }
   ]
+
 }
