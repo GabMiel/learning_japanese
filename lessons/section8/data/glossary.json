@@ -288,7 +288,7 @@
       { "en": "For you", "jp": "あなたのために", "romaji": "anata no tame ni", "sound": "for_you.mp3" },
       { "en": "Foreigner", "jp": "外国人 / 外人", "romaji": "gaikoku-jin / gai-jin", "sound": "foreigner.mp3" },
       { "en": "Forget", "jp": "忘れる", "romaji": "wasureru", "sound": "forget.mp3" },
-      { "en": "Don't forget", "jp": "忘れるな / 忘れないで", "romaji": "wasureruna / wasurenaide", "sound": "dont_forget.mp3" },
+      { "en": "Don't forget", "jp": "忘れてはいけない / 忘れないで", "romaji": "wasurete wa ikenai / wasurenaide", "sound": "dont_forget.mp3" },
       { "en": "Formerly", "jp": "以前 / 昔", "romaji": "izen / mukashi", "sound": "formerly.mp3" },
       { "en": "Forth", "jp": "前へ / 先へ", "romaji": "mae e / saki e", "sound": "forth.mp3" },
       { "en": "Forward", "jp": "前の方へ / 前進して", "romaji": "mae no hō e / zenshin shite", "sound": "forward.mp3" },
@@ -341,7 +341,7 @@
     "H": [
       { "en": "Hair", "jp": "髪 / ヘア", "romaji": "kami / hea", "sound": "hair.mp3" },
       { "en": "Half", "jp": "半分 / 半", "romaji": "hanbun / han", "sound": "half.mp3" },
-      { "en": "Half an hour", "jp": "半時間 / 30分", "romaji": "hanjikan / sanjippun", "sound": "half_an_hour.mp3" },
+      { "en": "Half an hour", "jp": "半時間 / 三十分", "romaji": "hanjikan / sanjippun", "sound": "half_an_hour.mp3" },
       { "en": "Half boiled eggs", "jp": "半熟のたまご", "romaji": "hanjuku no tamago", "sound": "half_boiled_eggs.mp3" },
       { "en": "Hand", "jp": "手", "romaji": "te", "sound": "hand.mp3" },
       { "en": "Handkerchief", "jp": "ハンカチ / 手ぬぐい", "romaji": "hankachi / tenugui", "sound": "handkerchief.mp3" },
