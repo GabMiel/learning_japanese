@@ -1036,7 +1036,7 @@
     "Y": [
       { "en": "Yellow", "jp": "黄色い", "romaji": "kiiroi", "sound": "yellow.mp3" },
       { "en": "Yes", "jp": "はい / ええ", "romaji": "hai / ee", "sound": "yes.mp3" },
-      { "en": "Yesterday", "jp": "昨日 / 昨日（さくじつ）", "romaji": "kinō / sakujitsu", "sound": "yesterday.mp3" },
+      { "en": "Yesterday", "jp": "昨日 / さくじつ", "romaji": "kinō / sakujitsu", "sound": "yesterday.mp3" },
       { "en": "Yet", "jp": "まだ / しかし", "romaji": "mada / shikashi", "sound": "yet.mp3" },
       { "en": "You are mistaken", "jp": "間違っています", "romaji": "machigatte imasu", "sound": "you_are_mistaken.mp3" },
       { "en": "You are right", "jp": "そうです / 正しいです", "romaji": "sō desu / tadashii desu", "sound": "you_are_right.mp3" },
