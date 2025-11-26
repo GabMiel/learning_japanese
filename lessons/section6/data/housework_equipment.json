@@ -11,6 +11,19 @@
     { "en": "Powdered Soap", "jp": "粉石けん", "romaji": "Kona sekken", "sound": "powdered_soap.mp3" },
     { "en": "Scouring Powder", "jp": "みがきこな", "romaji": "Migaki kona", "sound": "scouring_powder.mp3" },
     { "en": "Silver Polish", "jp": "しろみがき", "romaji": "Shiro migaki", "sound": "silver_polish.mp3" },
-    { "en": "Soap", "jp": "せっけん", "romaji": "Sekken", "sound": "soap.mp3" }
+    { "en": "Soap", "jp": "せっけん", "romaji": "Sekken", "sound": "soap.mp3" },
+
+    { "en": "Vacuum Cleaner", "jp": "掃除機", "romaji": "Sōjiki", "sound": "vacuum_cleaner.mp3" },
+    { "en": "Dustpan", "jp": "ちりとり", "romaji": "Chiritori", "sound": "dustpan.mp3" },
+    { "en": "Sponge", "jp": "スポンジ", "romaji": "Suponji", "sound": "sponge.mp3" },
+    { "en": "Cleaning Cloth", "jp": "ぞうきん", "romaji": "Zōkin", "sound": "cleaning_cloth.mp3" },
+    { "en": "Rubber Gloves", "jp": "ゴム手袋", "romaji": "Gomu tebukuro", "sound": "rubber_gloves.mp3" },
+    { "en": "Disinfectant", "jp": "消毒液", "romaji": "Shōdoku-eki", "sound": "disinfectant.mp3" },
+    { "en": "Laundry Detergent", "jp": "洗剤", "romaji": "Senzai", "sound": "laundry_detergent.mp3" },
+    { "en": "Bleach", "jp": "漂白剤", "romaji": "Hyōhakuzai", "sound": "bleach.mp3" },
+    { "en": "Iron", "jp": "アイロン", "romaji": "Airon", "sound": "iron.mp3" },
+    { "en": "Ironing Board", "jp": "アイロン台", "romaji": "Airon-dai", "sound": "ironing_board.mp3" },
+    { "en": "Clothesline", "jp": "物干し", "romaji": "Monohoshi", "sound": "clothesline.mp3" },
+    { "en": "Peg / Clothespin", "jp": "洗濯ばさみ", "romaji": "Sentaku-basami", "sound": "clothespin.mp3" }
   ]
 }
