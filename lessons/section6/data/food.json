@@ -55,6 +55,23 @@
     { "en": "Stew", "jp": "にこみ", "romaji": "Nikomi", "sound": "stew.mp3" },
     { "en": "Sugar", "jp": "さとう", "romaji": "Satō", "sound": "sugar.mp3" },
     { "en": "Tea", "jp": "ちゃ", "romaji": "Cha", "sound": "tea.mp3" },
-    { "en": "Toast", "jp": "トースト", "romaji": "Tōsuto", "sound": "toast.mp3" }
+    { "en": "Toast", "jp": "トースト", "romaji": "Tōsuto", "sound": "toast.mp3" },
+
+    { "en": "Milk Tea", "jp": "ミルクティー", "romaji": "Miruku-tī", "sound": "milk_tea.mp3" },
+    { "en": "Onigiri", "jp": "おにぎり", "romaji": "Onigiri", "sound": "onigiri.mp3" },
+    { "en": "Sandwich", "jp": "サンドイッチ", "romaji": "Sandoitchi", "sound": "sandwich.mp3" },
+    { "en": "Instant Noodles", "jp": "インスタントラーメン", "romaji": "Insutanto rāmen", "sound": "instant_noodles.mp3" },
+    { "en": "Bento Box", "jp": "弁当", "romaji": "Bentō", "sound": "bento_box.mp3" },
+    { "en": "Croquette", "jp": "コロッケ", "romaji": "Korokke", "sound": "croquette.mp3" },
+    { "en": "Katsu Curry", "jp": "カツカレー", "romaji": "Katsu karē", "sound": "katsu_curry.mp3" },
+    { "en": "Udon", "jp": "うどん", "romaji": "Udon", "sound": "udon.mp3" },
+    { "en": "Soba", "jp": "そば", "romaji": "Soba", "sound": "soba.mp3" },
+    { "en": "Tempura", "jp": "天ぷら", "romaji": "Tenpura", "sound": "tempura.mp3" },
+    { "en": "Hamburger Steak", "jp": "ハンバーグ", "romaji": "Hanbāgu", "sound": "hamburger_steak.mp3" },
+    { "en": "Fried Chicken", "jp": "フライドチキン", "romaji": "Furaido chikin", "sound": "fried_chicken.mp3" },
+    { "en": "Curry Rice", "jp": "カレーライス", "romaji": "Karē raisu", "sound": "curry_rice.mp3" },
+    { "en": "Spaghetti", "jp": "スパゲッティ", "romaji": "Supagetti", "sound": "spaghetti.mp3" },
+    { "en": "Omurice", "jp": "オムライス", "romaji": "Omuraisu", "sound": "omurice.mp3" }
+
     ]
   }
