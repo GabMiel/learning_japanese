@@ -6,6 +6,26 @@
     { "en": "Tomorrow", "jp": "明日", "romaji": "Asu", "sound": "tomorrow.mp3" },
     { "en": "Yesterday", "jp": "昨日", "romaji": "Kinō", "sound": "yesterday.mp3" },
     { "en": "Day after tomorrow", "jp": "明後日", "romaji": "Asatte", "sound": "dayaftertomorrow.mp3" },
-    { "en": "Day before yesterday", "jp": "一昨日", "romaji": "Ototoi", "sound": "daybeforeyesterday.mp3" }
+    { "en": "Day before yesterday", "jp": "一昨日", "romaji": "Ototoi", "sound": "daybeforeyesterday.mp3" },
+
+    { "en": "Morning", "jp": "朝", "romaji": "Asa", "sound": "morning.mp3" },
+    { "en": "Afternoon", "jp": "午後", "romaji": "Gogo", "sound": "afternoon.mp3" },
+    { "en": "Evening", "jp": "夕方", "romaji": "Yūgata", "sound": "evening.mp3" },
+    { "en": "Night", "jp": "夜", "romaji": "Yoru", "sound": "night.mp3" },
+    { "en": "Midnight", "jp": "真夜中", "romaji": "Mayonaka", "sound": "midnight.mp3" },
+    { "en": "Noon", "jp": "正午", "romaji": "Shōgo", "sound": "noon.mp3" },
+    { "en": "This week", "jp": "今週", "romaji": "Konshū", "sound": "this_week.mp3" },
+    { "en": "Last week", "jp": "先週", "romaji": "Senshū", "sound": "last_week.mp3" },
+    { "en": "Next week", "jp": "来週", "romaji": "Raishū", "sound": "next_week.mp3" },
+    { "en": "This month", "jp": "今月", "romaji": "Kongetsu", "sound": "this_month.mp3" },
+    { "en": "Last month", "jp": "先月", "romaji": "Sengetsu", "sound": "last_month.mp3" },
+    { "en": "Next month", "jp": "来月", "romaji": "Raigetsu", "sound": "next_month.mp3" },
+    { "en": "This year", "jp": "今年", "romaji": "Kotoshi", "sound": "this_year.mp3" },
+    { "en": "Last year", "jp": "去年", "romaji": "Kyonen", "sound": "last_year.mp3" },
+    { "en": "Next year", "jp": "来年", "romaji": "Rainen", "sound": "next_year.mp3" },
+    { "en": "Hour", "jp": "一時間", "romaji": "Ichijikan", "sound": "hour.mp3" },
+    { "en": "Minute", "jp": "分", "romaji": "Fun", "sound": "minute.mp3" },
+    { "en": "Second", "jp": "秒", "romaji": "Byō", "sound": "second_time.mp3" }
+
   ]
 }
