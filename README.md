@@ -67,3 +67,6 @@ This project is licensed under the MIT License.
 - Inspired by the desire to create a clean, personal study space
 - Hosted proudly on GitHub Pages
 
+
+## Personal Message
+- Hope you have fun with my Japanese Learning Website
