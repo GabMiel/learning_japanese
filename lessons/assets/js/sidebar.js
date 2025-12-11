@@ -65,6 +65,11 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     "Section 8 — Glossary": [
       "glossary"
+    ],
+    "Section 9 — Characters": [
+      "hiragana",
+      "katakana",
+      "kanji"
     ]
   };
 
