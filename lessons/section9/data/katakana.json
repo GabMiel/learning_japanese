@@ -1,0 +1,61 @@
+{
+  "title": "Lesson 49: Katakana",
+  "Characters": [
+    { "jp": "ア", "romaji": "a", "sound": "a.mp3" },
+    { "jp": "イ", "romaji": "i", "sound": "i.mp3" },
+    { "jp": "ウ", "romaji": "u", "sound": "u.mp3" },
+    { "jp": "エ", "romaji": "e", "sound": "e.mp3" },
+    { "jp": "オ", "romaji": "o", "sound": "o.mp3" },
+
+    { "jp": "カ", "romaji": "ka", "sound": "ka.mp3" },
+    { "jp": "キ", "romaji": "ki", "sound": "ki.mp3" },
+    { "jp": "ク", "romaji": "ku", "sound": "ku.mp3" },
+    { "jp": "ケ", "romaji": "ke", "sound": "ke.mp3" },
+    { "jp": "コ", "romaji": "ko", "sound": "ko.mp3" },
+
+    { "jp": "サ", "romaji": "sa", "sound": "sa.mp3" },
+    { "jp": "シ", "romaji": "shi", "sound": "shi.mp3" },
+    { "jp": "ス", "romaji": "su", "sound": "su.mp3" },
+    { "jp": "セ", "romaji": "se", "sound": "se.mp3" },
+    { "jp": "ソ", "romaji": "so", "sound": "so.mp3" },
+
+    { "jp": "タ", "romaji": "ta", "sound": "ta.mp3" },
+    { "jp": "チ", "romaji": "chi", "sound": "chi.mp3" },
+    { "jp": "ツ", "romaji": "tsu", "sound": "tsu.mp3" },
+    { "jp": "テ", "romaji": "te", "sound": "te.mp3" },
+    { "jp": "ト", "romaji": "to", "sound": "to.mp3" },
+
+    { "jp": "ナ", "romaji": "na", "sound": "na.mp3" },
+    { "jp": "ニ", "romaji": "ni", "sound": "ni.mp3" },
+    { "jp": "ヌ", "romaji": "nu", "sound": "nu.mp3" },
+    { "jp": "ネ", "romaji": "ne", "sound": "ne.mp3" },
+    { "jp": "ノ", "romaji": "no", "sound": "no.mp3" },
+
+    { "jp": "ハ", "romaji": "ha", "sound": "ha.mp3" },
+    { "jp": "ヒ", "romaji": "hi", "sound": "hi.mp3" },
+    { "jp": "フ", "romaji": "fu", "sound": "fu.mp3" },
+    { "jp": "ヘ", "romaji": "he", "sound": "he.mp3" },
+    { "jp": "ホ", "romaji": "ho", "sound": "ho.mp3" },
+
+    { "jp": "マ", "romaji": "ma", "sound": "ma.mp3" },
+    { "jp": "ミ", "romaji": "mi", "sound": "mi.mp3" },
+    { "jp": "ム", "romaji": "mu", "sound": "mu.mp3" },
+    { "jp": "メ", "romaji": "me", "sound": "me.mp3" },
+    { "jp": "モ", "romaji": "mo", "sound": "mo.mp3" },
+
+    { "jp": "ヤ", "romaji": "ya", "sound": "ya.mp3" },
+    { "jp": "ユ", "romaji": "yu", "sound": "yu.mp3" },
+    { "jp": "ヨ", "romaji": "yo", "sound": "yo.mp3" },
+
+    { "jp": "ラ", "romaji": "ra", "sound": "ra.mp3" },
+    { "jp": "リ", "romaji": "ri", "sound": "ri.mp3" },
+    { "jp": "ル", "romaji": "ru", "sound": "ru.mp3" },
+    { "jp": "レ", "romaji": "re", "sound": "re.mp3" },
+    { "jp": "ロ", "romaji": "ro", "sound": "ro.mp3" },
+
+    { "jp": "ワ", "romaji": "wa", "sound": "wa.mp3" },
+    { "jp": "ヲ", "romaji": "wo", "sound": "wo.mp3" },
+
+    { "jp": "ン", "romaji": "n", "sound": "n.mp3" }
+  ]
+}
